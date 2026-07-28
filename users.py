@@ -1,28 +1,22 @@
-# User Registration System
-
-users = []
+import sqlite3
 
 def register_user():
-    print("=== User Registration ===")
+    connection = sqlite3.connect("hospital.db")
+    cursor = connection.cursor()
 
     username = input("Enter username: ")
     password = input("Enter password: ")
-    role = input("Enter role (Admin/Doctor/Receptionist): ")
+    role = input("Enter role: ")
 
-    user = {
-        "username": username,
-        "password": password,
-        "role": role
-    }
+    cursor.execute(
+        "INSERT INTO users (username, password, role) VALUES (?, ?, ?)",
+        (username, password, role)
+    )
 
-    users.append(user)
+    connection.commit()
+    connection.close()
 
     print("User registered successfully!")
 
 
-# Test registration
 register_user()
-
-print("\nRegistered Users:")
-for user in users:
-    print(user)
