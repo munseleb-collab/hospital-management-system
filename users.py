@@ -1,22 +1,26 @@
 import sqlite3
-
-def register_user():
-    connection = sqlite3.connect("hospital.db")
-    cursor = connection.cursor()
-
-    username = input("Enter username: ")
-    password = input("Enter password: ")
-    role = input("Enter role: ")
-
-    cursor.execute(
-        "INSERT INTO users (username, password, role) VALUES (?, ?, ?)",
-        (username, password, role)
-    )
-
-    connection.commit()
-    connection.close()
-
-    print("User registered successfully!")
+import hashlib
 
 
-register_user()
+def hash_password(password):
+    return hashlib.sha256(password.encode()).hexdigest()
+
+
+connection = sqlite3.connect("hospital.db")
+cursor = connection.cursor()
+
+username = input("Enter username: ")
+password = input("Enter password: ")
+role = input("Enter role: ")
+
+hashed_password = hash_password(password)
+
+cursor.execute(
+    "INSERT INTO users (username, password, role) VALUES (?, ?, ?)",
+    (username, hashed_password, role)
+)
+
+connection.commit()
+connection.close()
+
+print("User registered successfully!")
