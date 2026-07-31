@@ -1,31 +1,39 @@
 import sqlite3
 import hashlib
 
-
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
 
-connection = sqlite3.connect("hospital.db")
-cursor = connection.cursor()
+def login():
 
-username = input("Enter username: ")
-password = input("Enter password: ")
+    connection = sqlite3.connect("hospital.db")
+    cursor = connection.cursor()
 
-hashed_password = hash_password(password)
+    print("\n===== Hospital Login =====")
 
-cursor.execute(
-    "SELECT * FROM users WHERE username=? AND password=?",
-    (username, hashed_password)
-)
+    username = input("Username: ")
+    password = input("Password: ")
 
-user = cursor.fetchone()
+    hashed_password = hash_password(password)
 
-if user:
-    print("Login successful!")
-    print("Welcome:", user[1])
-    print("Role:", user[3])
-else:
-    print("Invalid username or password")
+    cursor.execute("""
+    SELECT * FROM users
+    WHERE username = ? AND password = ?
+    """, (username, hashed_password))
 
-connection.close()
+    user = cursor.fetchone()
+
+    connection.close()
+
+    if user:
+        print("\nLogin Successful!")
+        print("Role:", user[3])
+        return True
+    else:
+        print("\nInvalid username or password.")
+        return False
+
+
+if __name__ == "__main__":
+    login()
