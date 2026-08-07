@@ -1,23 +1,20 @@
-import sqlite3
+from models.doctor import Doctor
 
-def add_doctor():
-    connection = sqlite3.connect("hospital.db")
-    cursor = connection.cursor()
 
-    print("\n=== Doctor Registration ===")
+print("=== Doctor Registration ===")
 
-    first_name = input("Doctor First Name: ")
-    last_name = input("Doctor Last Name: ")
-    specialization = input("Specialization: ")
-    phone = input("Phone Number: ")
+first_name = input("First Name: ")
+last_name = input("Last Name: ")
+specialization = input("Specialization: ")
+phone = input("Phone Number: ")
 
-    cursor.execute("""
-    INSERT INTO doctors
-    (first_name, last_name, specialization, phone)
-    VALUES (?, ?, ?, ?)
-    """, (first_name, last_name, specialization, phone))
 
-    connection.commit()
-    connection.close()
+doctor = Doctor(
+    first_name,
+    last_name,
+    specialization,
+    phone
+)
 
-    print("\nDoctor registered successfully!")
+
+doctor.save()

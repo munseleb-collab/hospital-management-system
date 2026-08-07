@@ -1,49 +1,55 @@
+from models.appointment import Appointment
 import sqlite3
 
-def add_appointment():
-    connection = sqlite3.connect("hospital.db")
-    cursor = connection.cursor()
+connection = sqlite3.connect("hospital.db")
+cursor = connection.cursor()
 
-    print("\n=== Book Appointment ===")
+print("=== Book Appointment ===")
 
-    # Check Patient
-    patient_id = input("Enter Patient ID: ")
-    cursor.execute("SELECT first_name, last_name FROM patients WHERE id = ?", (patient_id,))
-    patient = cursor.fetchone()
+patient_id = input("Enter Patient ID: ")
 
-    if patient is None:
-        print("Patient not found.")
-        connection.close()
-        return
+cursor.execute(
+    "SELECT first_name, last_name FROM patients WHERE id = ?",
+    (patient_id,)
+)
 
-    print(f"Patient: {patient[0]} {patient[1]}")
+patient = cursor.fetchone()
 
-    # Check Doctor
-    doctor_id = input("Enter Doctor ID: ")
-    cursor.execute("SELECT first_name, last_name FROM doctors WHERE id = ?", (doctor_id,))
-    doctor = cursor.fetchone()
-
-    if doctor is None:
-        print("Doctor not found.")
-        connection.close()
-        return
-
-    print(f"Doctor: Dr. {doctor[0]} {doctor[1]}")
-
-    appointment_date = input("Enter Appointment Date (YYYY-MM-DD): ")
-    appointment_time = input("Enter Appointment Time (HH:MM): ")
-    reason = input("Reason for Visit: ")
-
-    cursor.execute("""
-        INSERT INTO appointments
-        (patient_id, doctor_id, appointment_date, appointment_time, reason)
-        VALUES (?, ?, ?, ?, ?)
-    """, (patient_id, doctor_id, appointment_date, appointment_time, reason))
-
-    connection.commit()
+if patient is None:
+    print("Patient not found.")
     connection.close()
+    exit()
 
-    print("\nAppointment booked successfully!")
+print(f"Patient: {patient[0]} {patient[1]}")
 
-if __name__ == "__main__":
-    add_appointment()
+doctor_id = input("Enter Doctor ID: ")
+
+cursor.execute(
+    "SELECT first_name, last_name FROM doctors WHERE id = ?",
+    (doctor_id,)
+)
+
+doctor = cursor.fetchone()
+
+if doctor is None:
+    print("Doctor not found.")
+    connection.close()
+    exit()
+
+print(f"Doctor: Dr. {doctor[0]} {doctor[1]}")
+
+appointment_date = input("Appointment Date (YYYY-MM-DD): ")
+appointment_time = input("Appointment Time (HH:MM): ")
+reason = input("Reason for Visit: ")
+
+connection.close()
+
+appointment = Appointment(
+    patient_id,
+    doctor_id,
+    appointment_date,
+    appointment_time,
+    reason
+)
+
+appointment.save()

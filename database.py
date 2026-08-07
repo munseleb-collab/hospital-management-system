@@ -4,6 +4,7 @@ connection = sqlite3.connect("hospital.db")
 cursor = connection.cursor()
 
 # Patients table
+
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS patients (
     id INTEGER PRIMARY KEY AUTOINCREMENT,

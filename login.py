@@ -1,39 +1,22 @@
-import sqlite3
-import hashlib
-
-def hash_password(password):
-    return hashlib.sha256(password.encode()).hexdigest()
+from models.user import User
 
 
-def login():
+print("=== Login ===")
 
-    connection = sqlite3.connect("hospital.db")
-    cursor = connection.cursor()
-
-    print("\n===== Hospital Login =====")
-
-    username = input("Username: ")
-    password = input("Password: ")
-
-    hashed_password = hash_password(password)
-
-    cursor.execute("""
-    SELECT * FROM users
-    WHERE username = ? AND password = ?
-    """, (username, hashed_password))
-
-    user = cursor.fetchone()
-
-    connection.close()
-
-    if user:
-        print("\nLogin Successful!")
-        print("Role:", user[3])
-        return True
-    else:
-        print("\nInvalid username or password.")
-        return False
+username = input("Username: ")
+password = input("Password: ")
 
 
-if __name__ == "__main__":
-    login()
+user = User(
+    username,
+    password
+)
+
+
+result = user.login()
+
+
+if result:
+    print("Login successful!")
+else:
+    print("Invalid username or password")
