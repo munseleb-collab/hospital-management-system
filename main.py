@@ -1,3 +1,4 @@
+
 from medical_history import view_medical_history
 from dashboard import dashboard
 from login import login
@@ -18,7 +19,9 @@ from reports import billing_report
 
 
 def menu():
+
     while True:
+
         print("\n=== Hospital Management System ===")
         print("1. Dashboard")
         print("2. Register Patient")
@@ -39,21 +42,17 @@ def menu():
         print("17. Generate Patient Report")
         print("18. Backup Database")
         print("19. Exit")
-        
 
         choice = input("Enter your choice: ")
-        
+
         if choice == "1":
-         dashboard()
+            dashboard()
 
         elif choice == "2":
-         add_patient()
+            add_patient()
 
         elif choice == "3":
-         view_patients()
-
-# Continue updating the remaining options.
-
+            view_patients()
 
         elif choice == "4":
             update_patient()
@@ -61,57 +60,54 @@ def menu():
         elif choice == "5":
             delete_patient()
 
-
         elif choice == "6":
-         search_patient()
+            search_patient()
 
-         
         elif choice == "7":
-         add_doctor()
+            add_doctor()
 
         elif choice == "8":
-         view_doctors()
+            view_doctors()
 
         elif choice == "9":
-         add_appointment()
-         
+            add_appointment()
+
         elif choice == "10":
-         view_appointments()
-         
+            view_appointments()
+
         elif choice == "11":
-         create_bill()
-         
+            create_bill()
+
         elif choice == "12":
-         view_bills()
-         
+            view_bills()
+
         elif choice == "13":
-         add_prescription()
+            add_prescription()
 
         elif choice == "14":
-         view_prescriptions()
-        
+            view_prescriptions()
+
         elif choice == "15":
-         billing_report()
-         
+            billing_report()
+
         elif choice == "16":
-         from medical_history import view_medical_history
-         view_medical_history()
-         
+            view_medical_history()
+
         elif choice == "17":
-         from patient_report import generate_patient_report
-         generate_patient_report()
-         
+            from patient_report import generate_patient_report
+            generate_patient_report()
+
         elif choice == "18":
-         from database_backup import backup_database
-         backup_database()
+            from database_backup import backup_database
+            backup_database()
 
         elif choice == "19":
-         print("Thank you for using the Hospital Management System.")
-        break
+            print("Thank you for using the Hospital Management System.")
+            break
 
-
-    else:
+        else:
             print("Invalid choice. Please try again.")
+
 
 if login():
     menu()

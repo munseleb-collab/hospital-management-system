@@ -1,25 +1,24 @@
 from models.prescription import Prescription
-import sqlite3
 
-connection = sqlite3.connect("hospital.db")
-cursor = connection.cursor()
 
-print("=== Add Prescription ===")
+def add_prescription():
 
-patient_id = input("Patient ID: ")
-doctor_id = input("Doctor ID: ")
-medicine = input("Medicine: ")
-dosage = input("Dosage: ")
-instructions = input("Instructions: ")
+    print("=== Add Prescription ===")
 
-connection.close()
+    patient_id = input("Patient ID: ")
+    doctor_id = input("Doctor ID: ")
+    medicine = input("Medicine: ")
+    dosage = input("Dosage: ")
+    instructions = input("Instructions: ")
 
-prescription = Prescription(
-    patient_id,
-    doctor_id,
-    medicine,
-    dosage,
-    instructions
-)
+    prescription = Prescription(
+        patient_id,
+        doctor_id,
+        medicine,
+        dosage,
+        instructions
+    )
 
-prescription.save()
+    prescription.save()
+
+

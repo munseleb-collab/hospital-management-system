@@ -1,22 +1,53 @@
+
 from models.user import User
 
 
-print("=== Login ===")
+def login():
 
-username = input("Username: ")
-password = input("Password: ")
+    print("=== Login ===")
+
+    username = input("Username: ")
+    password = input("Password: ")
+
+    user = User(
+        username,
+        password
+    )
+
+    result = user.login()
+
+    if result:
+        print("Login successful!")
+        return True
+
+    else:
+        print("Invalid username or password")
+        return False
+from models.user import User
 
 
-user = User(
-    username,
-    password
-)
+def login():
+
+    print("=== Login ===")
+
+    username = input("Username: ")
+    password = input("Password: ")
+
+    user = User(
+        username,
+        password
+    )
+
+    result = user.login()
+
+    if result:
+        print("Login successful!")
+        return True
+
+    else:
+        print("Invalid username or password")
+        return False
 
 
-result = user.login()
-
-
-if result:
-    print("Login successful!")
-else:
-    print("Invalid username or password")
+if __name__ == "__main__":
+    login()

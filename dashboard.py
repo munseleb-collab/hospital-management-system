@@ -1,215 +1,387 @@
+
 import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# Connect to database
-connection = sqlite3.connect("hospital.db")
+def dashboard():
 
+    # ============================================================
+    # CONNECT TO DATABASE
+    # ============================================================
 
-# ==============================
-# GET HOSPITAL DATA
-# ==============================
+    connection = sqlite3.connect("hospital.db")
 
-patients = pd.read_sql_query(
-    "SELECT * FROM patients",
-    connection
-)
+    # ============================================================
+    # LOAD HOSPITAL DATA
+    # ============================================================
 
-doctors = pd.read_sql_query(
-    "SELECT * FROM doctors",
-    connection
-)
+    patients = pd.read_sql_query(
+        "SELECT * FROM patients",
+        connection
+    )
 
-appointments = pd.read_sql_query(
-    "SELECT * FROM appointments",
-    connection
-)
+    doctors = pd.read_sql_query(
+        "SELECT * FROM doctors",
+        connection
+    )
 
-prescriptions = pd.read_sql_query(
-    "SELECT * FROM prescriptions",
-    connection
-)
+    appointments = pd.read_sql_query(
+        "SELECT * FROM appointments",
+        connection
+    )
 
-bills = pd.read_sql_query(
-    "SELECT * FROM bills",
-    connection
-)
+    prescriptions = pd.read_sql_query(
+        "SELECT * FROM prescriptions",
+        connection
+    )
 
+    bills = pd.read_sql_query(
+        "SELECT * FROM bills",
+        connection
+    )
 
-# ==============================
-# CALCULATE STATISTICS
-# ==============================
+    # ============================================================
+    # CALCULATE MAIN STATISTICS
+    # ============================================================
 
-total_patients = len(patients)
-total_doctors = len(doctors)
-total_appointments = len(appointments)
-total_prescriptions = len(prescriptions)
+    total_patients = len(patients)
+    total_doctors = len(doctors)
+    total_appointments = len(appointments)
+    total_prescriptions = len(prescriptions)
+    total_bills = len(bills)
 
-if not bills.empty:
-    total_revenue = bills["amount"].sum()
-else:
-    total_revenue = 0
+    if not bills.empty:
+        total_revenue = bills["amount"].sum()
+        average_bill = bills["amount"].mean()
+    else:
+        total_revenue = 0
+        average_bill = 0
 
+    # ============================================================
+    # PATIENT STATISTICS
+    # ============================================================
 
-# ==============================
-# DISPLAY DASHBOARD
-# ==============================
+    if not patients.empty:
 
-print("\n==============================================")
-print("          HOSPITAL ANALYTICS DASHBOARD")
-print("==============================================")
+        valid_gender_data = patients[
+            patients["gender"].isin(["Male", "Female"])
+        ]
 
-print(f"Total Patients       : {total_patients}")
-print(f"Total Doctors        : {total_doctors}")
-print(f"Total Appointments   : {total_appointments}")
-print(f"Total Prescriptions  : {total_prescriptions}")
-print(f"Total Revenue        : K{total_revenue:.2f}")
+        gender_count = valid_gender_data["gender"].value_counts()
 
-print("==============================================")
+        diagnosis_count = patients["diagnosis"].value_counts()
 
+        average_age = patients["age"].mean()
 
-# ==============================
-# PATIENT ANALYSIS
-# ==============================
+        patients["age_group"] = pd.cut(
+            patients["age"],
+            bins=[0, 12, 18, 35, 50, 65, 100],
+            labels=[
+                "Children",
+                "Teenagers",
+                "Young Adults",
+                "Adults",
+                "Older Adults",
+                "Seniors"
+            ]
+        )
 
-if not patients.empty:
+        age_group_count = (
+            patients["age_group"]
+            .value_counts()
+            .sort_index()
+        )
 
-    # Only count valid genders
-    valid_gender_data = patients[
-        patients["gender"].isin(["Male", "Female"])
-    ]
+    # ============================================================
+    # DOCTOR STATISTICS
+    # ============================================================
 
-    gender_count = valid_gender_data["gender"].value_counts()
+    if not doctors.empty:
+
+        specialization_count = (
+            doctors["specialization"]
+            .value_counts()
+        )
+
+    # ============================================================
+    # APPOINTMENT STATISTICS
+    # ============================================================
+
+    if not appointments.empty:
+
+        appointment_reason_count = (
+            appointments["reason"]
+            .value_counts()
+        )
+
+    # ============================================================
+    # BILLING STATISTICS
+    # ============================================================
+
+    if not bills.empty:
+
+        bills["payment_status"] = (
+            bills["payment_status"]
+            .str.strip()
+            .str.capitalize()
+        )
+
+        payment_status = (
+            bills["payment_status"]
+            .value_counts()
+        )
+
+        service_revenue = (
+            bills.groupby("service")["amount"]
+            .sum()
+            .sort_values(ascending=False)
+        )
+
+    # ============================================================
+    # PRESCRIPTION STATISTICS
+    # ============================================================
+
+    if not prescriptions.empty:
+
+        medicine_count = (
+            prescriptions["medicine"]
+            .value_counts()
+        )
+
+    # ============================================================
+    # DISPLAY DASHBOARD
+    # ============================================================
+
+    print("\n" + "=" * 60)
+    print("             HOSPITAL ANALYTICS DASHBOARD")
+    print("=" * 60)
+
+    print("\nDATASET OVERVIEW")
+    print("-" * 60)
+
+    print(f"Total Patients       : {total_patients}")
+    print(f"Total Doctors        : {total_doctors}")
+    print(f"Total Appointments   : {total_appointments}")
+    print(f"Total Bills          : {total_bills}")
+    print(f"Total Prescriptions  : {total_prescriptions}")
+
+    # ============================================================
+    # PATIENT SUMMARY
+    # ============================================================
+
+    print("\n" + "-" * 60)
+    print("PATIENT SUMMARY")
+    print("-" * 60)
+
+    print(f"Average Patient Age  : {average_age:.2f}")
 
     print("\nPatients by Gender:")
     print(gender_count)
 
-    diagnosis_count = patients["diagnosis"].value_counts()
-
-    print("\nTop Diagnoses:")
+    print("\nTop 5 Diagnoses:")
     print(diagnosis_count.head(5))
 
+    print("\nPatients by Age Group:")
+    print(age_group_count)
 
-# ==============================
-# DOCTOR ANALYSIS
-# ==============================
+    # ============================================================
+    # DOCTOR SUMMARY
+    # ============================================================
 
-if not doctors.empty:
+    print("\n" + "-" * 60)
+    print("DOCTOR SUMMARY")
+    print("-" * 60)
 
-    specialization_count = doctors["specialization"].value_counts()
+    print(f"Total Doctors        : {total_doctors}")
 
     print("\nDoctors by Specialization:")
     print(specialization_count)
 
+    # ============================================================
+    # APPOINTMENT SUMMARY
+    # ============================================================
 
-# ==============================
-# BILLING ANALYSIS
-# ==============================
+    print("\n" + "-" * 60)
+    print("APPOINTMENT SUMMARY")
+    print("-" * 60)
 
-if not bills.empty:
+    print(f"Total Appointments   : {total_appointments}")
 
-    # Standardize payment status
-    bills["payment_status"] = (
-        bills["payment_status"]
-        .str.strip()
-        .str.capitalize()
-    )
+    print("\nTop Appointment Reasons:")
+    print(appointment_reason_count.head(5))
 
-    payment_status = bills["payment_status"].value_counts()
+    # ============================================================
+    # FINANCIAL SUMMARY
+    # ============================================================
+
+    print("\n" + "-" * 60)
+    print("FINANCIAL SUMMARY")
+    print("-" * 60)
+
+    print(f"Total Bills          : {total_bills}")
+    print(f"Total Revenue        : ZMW {total_revenue:,.2f}")
+    print(f"Average Bill         : ZMW {average_bill:,.2f}")
 
     print("\nPayment Status:")
     print(payment_status)
 
+    print("\nRevenue by Service:")
+    print(service_revenue)
 
-connection.close()
+    # ============================================================
+    # PRESCRIPTION SUMMARY
+    # ============================================================
 
+    print("\n" + "-" * 60)
+    print("PRESCRIPTION SUMMARY")
+    print("-" * 60)
 
-# ==============================
-# CHART 1
-# PATIENTS BY GENDER
-# ==============================
+    print(f"Total Prescriptions  : {total_prescriptions}")
 
-if not patients.empty:
+    print("\nTop 5 Prescribed Medicines:")
+    print(medicine_count.head(5))
 
-    gender_count.plot(
-        kind="bar",
-        title="Patients by Gender"
-    )
+    print("\n" + "=" * 60)
+    print("          DASHBOARD DATA LOADED SUCCESSFULLY")
+    print("=" * 60)
 
-    plt.xlabel("Gender")
-    plt.ylabel("Number of Patients")
-    plt.tight_layout()
-    plt.show()
+    # ============================================================
+    # CLOSE DATABASE
+    # ============================================================
 
+    connection.close()
 
-# ==============================
-# CHART 2
-# TOP 5 DIAGNOSES
-# ==============================
+    # ============================================================
+    # CHART 1 — PATIENTS BY GENDER
+    # ============================================================
 
-if not patients.empty:
+    if not patients.empty:
 
-    diagnosis_count.head(5).plot(
-        kind="bar",
-        title="Top 5 Patient Diagnoses"
-    )
+        gender_count.plot(
+            kind="bar",
+            title="Patients by Gender"
+        )
 
-    plt.xlabel("Diagnosis")
-    plt.ylabel("Number of Patients")
-    plt.tight_layout()
-    plt.show()
+        plt.xlabel("Gender")
+        plt.ylabel("Number of Patients")
+        plt.tight_layout()
+        plt.show()
 
+    # ============================================================
+    # CHART 2 — TOP 5 DIAGNOSES
+    # ============================================================
 
-# ==============================
-# CHART 3
-# DOCTORS BY SPECIALIZATION
-# ==============================
+    if not patients.empty:
 
-if not doctors.empty:
+        diagnosis_count.head(5).plot(
+            kind="bar",
+            title="Top 5 Patient Diagnoses"
+        )
 
-    specialization_count.plot(
-        kind="bar",
-        title="Doctors by Specialization"
-    )
+        plt.xlabel("Diagnosis")
+        plt.ylabel("Number of Patients")
+        plt.xticks(rotation=30)
+        plt.tight_layout()
+        plt.show()
 
-    plt.xlabel("Specialization")
-    plt.ylabel("Number of Doctors")
-    plt.tight_layout()
-    plt.show()
+    # ============================================================
+    # CHART 3 — PATIENTS BY AGE GROUP
+    # ============================================================
 
+    if not patients.empty:
 
-# ==============================
-# CHART 4
-# PAYMENT STATUS
-# ==============================
+        age_group_count.plot(
+            kind="bar",
+            title="Patients by Age Group"
+        )
 
-if not bills.empty:
+        plt.xlabel("Age Group")
+        plt.ylabel("Number of Patients")
+        plt.xticks(rotation=30)
+        plt.tight_layout()
+        plt.show()
 
-    payment_status.plot(
-        kind="pie",
-        autopct="%1.1f%%",
-        title="Payment Status"
-    )
+    # ============================================================
+    # CHART 4 — DOCTORS BY SPECIALIZATION
+    # ============================================================
 
-    plt.ylabel("")
-    plt.tight_layout()
-    plt.show()
+    if not doctors.empty:
 
+        specialization_count.plot(
+            kind="bar",
+            title="Doctors by Specialization"
+        )
 
-# ==============================
-# CHART 5
-# REVENUE
-# ==============================
+        plt.xlabel("Specialization")
+        plt.ylabel("Number of Doctors")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.show()
 
-if not bills.empty:
+    # ============================================================
+    # CHART 5 — APPOINTMENTS BY REASON
+    # ============================================================
 
-    bills["amount"].plot(
-        kind="bar",
-        title="Hospital Bill Amounts"
-    )
+    if not appointments.empty:
 
-    plt.xlabel("Bill")
-    plt.ylabel("Amount (K)")
-    plt.tight_layout()
-    plt.show()
+        appointment_reason_count.plot(
+            kind="bar",
+            title="Appointments by Reason"
+        )
+
+        plt.xlabel("Appointment Reason")
+        plt.ylabel("Number of Appointments")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.show()
+
+    # ============================================================
+    # CHART 6 — PAYMENT STATUS
+    # ============================================================
+
+    if not bills.empty:
+
+        payment_status.plot(
+            kind="pie",
+            autopct="%1.1f%%",
+            title="Payment Status"
+        )
+
+        plt.ylabel("")
+        plt.tight_layout()
+        plt.show()
+
+    # ============================================================
+    # CHART 7 — REVENUE BY SERVICE
+    # ============================================================
+
+    if not bills.empty:
+
+        service_revenue.plot(
+            kind="bar",
+            title="Revenue by Hospital Service"
+        )
+
+        plt.xlabel("Service")
+        plt.ylabel("Revenue (ZMW)")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.show()
+
+    # ============================================================
+    # CHART 8 — TOP PRESCRIBED MEDICINES
+    # ============================================================
+
+    if not prescriptions.empty:
+
+        medicine_count.head(5).plot(
+            kind="bar",
+            title="Top 5 Prescribed Medicines"
+        )
+
+        plt.xlabel("Medicine")
+        plt.ylabel("Number of Prescriptions")
+        plt.tight_layout()
+        plt.show()
+

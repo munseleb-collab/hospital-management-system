@@ -25,5 +25,3 @@ def view_patients():
 
     connection.close()
 
-
-view_patients()
