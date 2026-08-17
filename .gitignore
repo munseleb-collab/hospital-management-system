@@ -3,5 +3,7 @@ __pycache__/
 
 *.pdf
 
-hospital_backup_*.db
-hospital.db
+# Database files
+*.db
+*.sqlite
+*.sqlite3
