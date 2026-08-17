@@ -1,0 +1,551 @@
+id,patient_id,service,amount,payment_status
+1,179,Ultrasound,1874.11,Pending
+2,385,Follow-up Consultation,1278.97,Paid
+3,184,Consultation,333.14,Partially Paid
+4,88,Emergency Treatment,1746.7,Paid
+5,176,Consultation,480.83,Partially Paid
+6,70,Consultation,481.96,Paid
+7,438,Consultation,2378.36,Pending
+8,260,Blood Test,1591.77,Partially Paid
+9,368,Laboratory Test,1662.21,Pending
+10,88,Medical Examination,928.21,Partially Paid
+11,77,Medical Examination,656.97,Pending
+12,357,Medication,1871.43,Partially Paid
+13,477,Follow-up Consultation,1812.25,Partially Paid
+14,373,Laboratory Test,1812.33,Partially Paid
+15,329,Laboratory Test,1034.23,Paid
+16,329,Emergency Treatment,1002.94,Partially Paid
+17,420,Consultation,2248.41,Paid
+18,174,Ultrasound,784.14,Partially Paid
+19,317,Dental Treatment,901.85,Pending
+20,128,Ultrasound,968.06,Partially Paid
+21,150,Follow-up Consultation,286.34,Paid
+22,47,Consultation,63.27,Pending
+23,416,Ultrasound,1141.35,Paid
+24,63,Blood Test,580.55,Partially Paid
+25,327,Emergency Treatment,1674.11,Paid
+26,200,Laboratory Test,1508.98,Paid
+27,100,Consultation,2251.8,Partially Paid
+28,17,Dental Treatment,2193.27,Partially Paid
+29,387,Dental Treatment,885.65,Partially Paid
+30,523,Dental Treatment,1505.9,Paid
+31,275,Follow-up Consultation,571.63,Pending
+32,266,Blood Test,2413.65,Pending
+33,538,Ultrasound,428.97,Pending
+34,277,Follow-up Consultation,1184.35,Paid
+35,65,Laboratory Test,79.35,Paid
+36,25,Laboratory Test,2492.07,Partially Paid
+37,27,Laboratory Test,1283.64,Pending
+38,30,Ultrasound,879.95,Partially Paid
+39,184,Laboratory Test,1712.66,Pending
+40,488,Dental Treatment,1231.73,Paid
+41,214,Ultrasound,2237.87,Pending
+42,470,Laboratory Test,1248.26,Paid
+43,179,Medication,1662.67,Paid
+44,488,X-Ray,2468.52,Partially Paid
+45,410,Blood Test,1434.53,Pending
+46,306,Dental Treatment,2416.62,Partially Paid
+47,243,Consultation,552.71,Pending
+48,68,Medication,2434.38,Partially Paid
+49,499,Medical Examination,1542.72,Paid
+50,261,Laboratory Test,2437.76,Partially Paid
+51,369,Blood Test,1391.03,Pending
+52,539,Ultrasound,728.05,Partially Paid
+53,115,Follow-up Consultation,1881.86,Paid
+54,325,Ultrasound,1379.92,Paid
+55,134,Medical Examination,1500.07,Partially Paid
+56,27,Follow-up Consultation,503.91,Pending
+57,374,Blood Test,865.12,Pending
+58,473,Laboratory Test,1439.13,Paid
+59,419,Medication,2316.74,Partially Paid
+60,331,Ultrasound,362.47,Pending
+61,426,Laboratory Test,1383.19,Paid
+62,470,Medication,2455.76,Pending
+63,308,Blood Test,517.88,Paid
+64,138,Blood Test,1117.5,Paid
+65,134,Blood Test,2324.4,Partially Paid
+66,471,X-Ray,63.65,Pending
+67,122,Dental Treatment,2048.69,Partially Paid
+68,159,Emergency Treatment,806.37,Paid
+69,242,Medication,1166.09,Partially Paid
+70,94,Blood Test,1205.34,Partially Paid
+71,73,Emergency Treatment,90.59,Pending
+72,208,Ultrasound,1820.71,Pending
+73,375,Blood Test,1627.19,Paid
+74,428,Blood Test,881.09,Paid
+75,286,Medication,693.87,Pending
+76,330,Follow-up Consultation,611.68,Pending
+77,296,Emergency Treatment,781.37,Paid
+78,245,Follow-up Consultation,521.61,Paid
+79,411,Medication,401.23,Pending
+80,13,Dental Treatment,869.47,Pending
+81,524,Follow-up Consultation,2146.2,Pending
+82,478,Laboratory Test,786.56,Pending
+83,308,Follow-up Consultation,199.18,Paid
+84,37,Emergency Treatment,188.18,Pending
+85,547,Emergency Treatment,535.85,Partially Paid
+86,462,Emergency Treatment,2171.98,Partially Paid
+87,458,Emergency Treatment,1523.94,Pending
+88,386,Follow-up Consultation,1665.2,Pending
+89,161,Medical Examination,2401.34,Partially Paid
+90,381,X-Ray,313.2,Paid
+91,428,Dental Treatment,900.39,Paid
+92,137,Emergency Treatment,583.7,Partially Paid
+93,519,Medication,1003.78,Paid
+94,287,Emergency Treatment,981.73,Partially Paid
+95,421,Consultation,696.77,Paid
+96,194,Dental Treatment,525.55,Pending
+97,422,Emergency Treatment,1733.14,Paid
+98,242,Emergency Treatment,1056.51,Partially Paid
+99,384,Medical Examination,715.27,Paid
+100,35,X-Ray,1217.38,Paid
+101,547,Blood Test,904.44,Partially Paid
+102,50,Laboratory Test,638.79,Paid
+103,96,Blood Test,1588.18,Pending
+104,132,Laboratory Test,818.87,Pending
+105,435,Ultrasound,2245.16,Pending
+106,216,Medication,475.28,Pending
+107,304,Medical Examination,1578.15,Partially Paid
+108,257,Follow-up Consultation,2498.7,Partially Paid
+109,52,Medical Examination,55.4,Paid
+110,268,Laboratory Test,1045.69,Partially Paid
+111,181,Blood Test,2490.36,Paid
+112,68,Medical Examination,1848.0,Paid
+113,410,Emergency Treatment,1366.77,Pending
+114,321,Consultation,1732.39,Paid
+115,190,X-Ray,1785.77,Paid
+116,343,Medication,370.96,Paid
+117,537,Laboratory Test,1887.05,Pending
+118,80,Dental Treatment,155.87,Pending
+119,280,X-Ray,908.83,Partially Paid
+120,196,X-Ray,2345.46,Pending
+121,149,Consultation,1724.02,Partially Paid
+122,106,Blood Test,2189.57,Paid
+123,17,X-Ray,177.7,Partially Paid
+124,127,Emergency Treatment,1449.04,Paid
+125,501,X-Ray,2040.41,Partially Paid
+126,501,Blood Test,411.62,Pending
+127,433,Laboratory Test,1165.91,Pending
+128,131,Dental Treatment,1985.3,Paid
+129,98,Laboratory Test,1023.07,Partially Paid
+130,294,X-Ray,624.03,Pending
+131,390,Laboratory Test,1084.53,Pending
+132,272,Consultation,1189.6,Pending
+133,365,X-Ray,970.0,Paid
+134,95,Dental Treatment,805.9,Partially Paid
+135,478,Emergency Treatment,235.14,Partially Paid
+136,486,Consultation,349.85,Pending
+137,484,Follow-up Consultation,1496.7,Partially Paid
+138,67,Dental Treatment,1782.28,Paid
+139,492,Consultation,873.32,Pending
+140,518,Emergency Treatment,1341.05,Partially Paid
+141,208,Medical Examination,470.62,Pending
+142,480,Emergency Treatment,970.57,Partially Paid
+143,170,Follow-up Consultation,2434.83,Pending
+144,322,Consultation,2023.43,Pending
+145,53,Laboratory Test,2101.18,Pending
+146,142,Laboratory Test,227.11,Pending
+147,320,X-Ray,1544.9,Paid
+148,156,Ultrasound,1555.12,Pending
+149,76,Emergency Treatment,1059.01,Pending
+150,130,Consultation,1046.03,Partially Paid
+151,128,Consultation,1977.33,Pending
+152,449,Emergency Treatment,499.08,Paid
+153,70,Ultrasound,1607.31,Pending
+154,537,Medication,624.94,Pending
+155,225,Medication,2420.88,Paid
+156,181,X-Ray,1890.85,Pending
+157,52,Blood Test,2257.95,Pending
+158,283,Follow-up Consultation,445.66,Paid
+159,383,X-Ray,775.95,Pending
+160,82,Medication,1278.75,Partially Paid
+161,94,Medication,1452.67,Paid
+162,105,Dental Treatment,736.79,Partially Paid
+163,229,Follow-up Consultation,1694.65,Pending
+164,250,Blood Test,1164.97,Pending
+165,99,Follow-up Consultation,2283.52,Paid
+166,379,Follow-up Consultation,74.74,Partially Paid
+167,456,Consultation,1343.58,Partially Paid
+168,400,Medical Examination,542.19,Pending
+169,254,Dental Treatment,412.99,Pending
+170,24,X-Ray,2031.43,Paid
+171,277,Consultation,1678.5,Pending
+172,274,Dental Treatment,1317.13,Paid
+173,228,Follow-up Consultation,1605.48,Pending
+174,337,Consultation,925.67,Partially Paid
+175,461,Follow-up Consultation,1053.8,Partially Paid
+176,190,Blood Test,1898.18,Partially Paid
+177,207,X-Ray,2324.92,Partially Paid
+178,18,Emergency Treatment,284.89,Pending
+179,151,Medical Examination,1253.67,Paid
+180,255,Laboratory Test,692.76,Partially Paid
+181,220,Consultation,447.22,Pending
+182,522,Laboratory Test,1849.72,Partially Paid
+183,482,Ultrasound,1591.52,Partially Paid
+184,154,Ultrasound,550.8,Pending
+185,98,Emergency Treatment,2376.87,Pending
+186,58,X-Ray,1206.18,Paid
+187,200,X-Ray,756.32,Paid
+188,228,Follow-up Consultation,283.72,Partially Paid
+189,353,Blood Test,694.44,Paid
+190,517,Follow-up Consultation,1951.24,Pending
+191,48,Ultrasound,421.93,Pending
+192,445,Blood Test,347.46,Partially Paid
+193,496,Laboratory Test,1143.75,Partially Paid
+194,254,Medical Examination,1151.71,Paid
+195,417,Dental Treatment,586.81,Partially Paid
+196,446,Dental Treatment,2444.05,Paid
+197,36,Consultation,86.28,Pending
+198,335,Laboratory Test,517.94,Partially Paid
+199,148,Blood Test,2285.71,Paid
+200,293,Follow-up Consultation,1928.12,Paid
+201,108,Medication,1787.74,Paid
+202,249,Emergency Treatment,1300.41,Paid
+203,69,Dental Treatment,279.97,Paid
+204,484,Medication,1465.6,Partially Paid
+205,291,X-Ray,2334.72,Pending
+206,8,Medical Examination,2390.79,Partially Paid
+207,304,Ultrasound,1912.85,Pending
+208,437,Medical Examination,283.96,Partially Paid
+209,546,Emergency Treatment,1207.19,Paid
+210,130,Follow-up Consultation,890.9,Pending
+211,313,Laboratory Test,1239.4,Partially Paid
+212,61,Consultation,2101.65,Paid
+213,373,Ultrasound,1393.85,Paid
+214,303,X-Ray,571.63,Paid
+215,452,Medication,1609.26,Partially Paid
+216,60,Emergency Treatment,1973.26,Pending
+217,42,Laboratory Test,521.06,Partially Paid
+218,143,Dental Treatment,766.91,Paid
+219,134,Consultation,1544.55,Paid
+220,505,Ultrasound,591.41,Pending
+221,348,Laboratory Test,2453.3,Partially Paid
+222,219,Consultation,1086.65,Paid
+223,283,Blood Test,1343.89,Pending
+224,135,Laboratory Test,1696.09,Pending
+225,542,X-Ray,2195.44,Pending
+226,246,Dental Treatment,292.06,Paid
+227,247,Medical Examination,1169.68,Paid
+228,23,Medication,1649.73,Pending
+229,240,Medication,566.34,Pending
+230,513,Follow-up Consultation,972.23,Partially Paid
+231,231,Blood Test,1625.48,Partially Paid
+232,499,Blood Test,1931.24,Paid
+233,337,Medical Examination,2286.12,Pending
+234,402,Ultrasound,2400.38,Paid
+235,80,Ultrasound,1151.71,Paid
+236,194,Medical Examination,629.47,Paid
+237,307,Medication,1534.98,Partially Paid
+238,252,Ultrasound,814.85,Partially Paid
+239,432,Medical Examination,91.16,Partially Paid
+240,142,Medication,2182.73,Paid
+241,178,Ultrasound,1693.07,Partially Paid
+242,27,X-Ray,2063.73,Partially Paid
+243,280,Medical Examination,2101.01,Pending
+244,80,Laboratory Test,1474.83,Pending
+245,192,Ultrasound,1403.36,Paid
+246,357,Ultrasound,376.03,Paid
+247,182,Medication,773.03,Partially Paid
+248,314,Emergency Treatment,2201.67,Partially Paid
+249,475,Blood Test,1777.77,Pending
+250,410,Follow-up Consultation,1625.57,Pending
+251,166,Medication,1688.56,Pending
+252,186,Follow-up Consultation,955.04,Paid
+253,475,Consultation,1062.99,Paid
+254,300,Medical Examination,965.46,Partially Paid
+255,36,Emergency Treatment,2045.88,Paid
+256,263,Medication,319.85,Paid
+257,420,Laboratory Test,1727.36,Partially Paid
+258,399,Follow-up Consultation,2177.54,Pending
+259,246,Medication,2290.57,Paid
+260,547,Medical Examination,1721.15,Paid
+261,446,Medical Examination,1966.34,Partially Paid
+262,292,Blood Test,1498.52,Partially Paid
+263,341,Blood Test,2113.65,Pending
+264,103,Ultrasound,1799.87,Pending
+265,413,Ultrasound,317.96,Paid
+266,316,Laboratory Test,762.4,Paid
+267,271,X-Ray,960.81,Paid
+268,10,Emergency Treatment,1873.97,Pending
+269,458,Medical Examination,233.44,Pending
+270,228,Medical Examination,457.33,Paid
+271,188,Follow-up Consultation,430.66,Pending
+272,481,Emergency Treatment,2269.7,Partially Paid
+273,546,Dental Treatment,495.26,Pending
+274,356,Follow-up Consultation,546.06,Paid
+275,477,Emergency Treatment,199.61,Paid
+276,297,Dental Treatment,2010.21,Pending
+277,140,Follow-up Consultation,2394.32,Paid
+278,186,X-Ray,1959.06,Paid
+279,362,Follow-up Consultation,1692.53,Partially Paid
+280,228,Ultrasound,1629.87,Paid
+281,315,Emergency Treatment,1319.01,Pending
+282,307,Laboratory Test,1331.2,Paid
+283,548,Consultation,1545.92,Partially Paid
+284,269,Laboratory Test,1990.89,Pending
+285,316,Medical Examination,1213.32,Partially Paid
+286,263,Medication,1530.83,Pending
+287,104,Medical Examination,804.42,Paid
+288,94,Emergency Treatment,2394.27,Partially Paid
+289,66,Follow-up Consultation,1181.46,Paid
+290,467,Consultation,275.84,Pending
+291,4,Medication,85.52,Partially Paid
+292,484,Dental Treatment,1241.63,Paid
+293,505,Medical Examination,2046.61,Pending
+294,460,Consultation,490.59,Pending
+295,476,Follow-up Consultation,2223.95,Partially Paid
+296,148,Emergency Treatment,674.55,Paid
+297,206,Consultation,2001.02,Partially Paid
+298,514,Laboratory Test,1854.39,Paid
+299,535,Follow-up Consultation,2307.91,Pending
+300,437,Medical Examination,2248.15,Partially Paid
+301,334,Medical Examination,1532.19,Partially Paid
+302,512,X-Ray,508.61,Pending
+303,241,Emergency Treatment,1804.46,Paid
+304,106,Consultation,258.11,Partially Paid
+305,199,Consultation,1583.86,Pending
+306,352,Laboratory Test,1040.75,Partially Paid
+307,145,X-Ray,260.62,Pending
+308,154,Medical Examination,2258.71,Paid
+309,314,X-Ray,1121.99,Partially Paid
+310,143,Follow-up Consultation,525.93,Partially Paid
+311,447,Blood Test,745.44,Partially Paid
+312,286,X-Ray,1179.76,Partially Paid
+313,165,X-Ray,487.51,Pending
+314,439,Dental Treatment,2131.48,Paid
+315,343,Dental Treatment,2152.31,Paid
+316,268,Medical Examination,514.51,Partially Paid
+317,478,Ultrasound,1200.67,Partially Paid
+318,43,Emergency Treatment,1125.67,Pending
+319,122,Ultrasound,2216.63,Partially Paid
+320,287,Ultrasound,685.53,Pending
+321,469,Blood Test,392.23,Pending
+322,463,Emergency Treatment,1712.48,Pending
+323,517,Medication,879.77,Partially Paid
+324,107,Medical Examination,2082.34,Paid
+325,139,Blood Test,180.23,Partially Paid
+326,487,Follow-up Consultation,937.79,Paid
+327,404,Emergency Treatment,1948.6,Paid
+328,50,X-Ray,1239.27,Paid
+329,505,X-Ray,1111.33,Paid
+330,475,X-Ray,374.22,Partially Paid
+331,198,Ultrasound,1327.55,Partially Paid
+332,245,Ultrasound,438.74,Pending
+333,247,Medical Examination,78.61,Pending
+334,429,X-Ray,2397.11,Partially Paid
+335,389,Emergency Treatment,360.57,Pending
+336,201,Dental Treatment,1321.93,Pending
+337,341,Dental Treatment,1341.69,Partially Paid
+338,414,Laboratory Test,627.32,Pending
+339,191,Dental Treatment,1598.94,Partially Paid
+340,291,Emergency Treatment,1418.74,Partially Paid
+341,162,Medical Examination,2443.76,Pending
+342,457,Blood Test,1315.32,Pending
+343,470,Blood Test,439.46,Paid
+344,544,Medical Examination,2448.8,Paid
+345,528,Ultrasound,1076.98,Paid
+346,355,Medical Examination,266.28,Paid
+347,529,Follow-up Consultation,848.73,Pending
+348,205,Follow-up Consultation,1769.6,Pending
+349,194,Blood Test,1681.71,Partially Paid
+350,504,Ultrasound,1752.27,Pending
+351,385,Follow-up Consultation,1775.52,Paid
+352,128,Laboratory Test,591.72,Partially Paid
+353,486,Dental Treatment,409.77,Pending
+354,520,Blood Test,497.73,Pending
+355,425,Follow-up Consultation,1532.46,Partially Paid
+356,25,Emergency Treatment,1332.69,Partially Paid
+357,492,Ultrasound,2115.78,Pending
+358,313,Medication,2298.71,Paid
+359,104,Consultation,1144.82,Paid
+360,401,Medication,2092.54,Pending
+361,279,X-Ray,162.02,Pending
+362,275,X-Ray,1025.7,Pending
+363,466,Blood Test,1150.32,Partially Paid
+364,163,Follow-up Consultation,453.74,Paid
+365,420,Ultrasound,542.36,Partially Paid
+366,46,Laboratory Test,2131.18,Partially Paid
+367,54,Ultrasound,434.17,Pending
+368,287,Blood Test,2270.03,Partially Paid
+369,503,Dental Treatment,1136.41,Paid
+370,131,Medication,657.09,Pending
+371,26,Ultrasound,2220.6,Paid
+372,82,Follow-up Consultation,2428.31,Paid
+373,92,Blood Test,1892.44,Partially Paid
+374,71,Follow-up Consultation,553.59,Pending
+375,318,Emergency Treatment,651.61,Partially Paid
+376,260,Dental Treatment,261.54,Paid
+377,353,Consultation,1631.29,Paid
+378,164,Laboratory Test,1172.66,Pending
+379,263,Follow-up Consultation,81.01,Partially Paid
+380,276,Emergency Treatment,1739.06,Paid
+381,504,X-Ray,2159.11,Pending
+382,387,Medical Examination,1825.19,Paid
+383,232,Medication,2212.23,Partially Paid
+384,456,Ultrasound,1275.33,Pending
+385,29,X-Ray,171.12,Partially Paid
+386,212,Consultation,2196.43,Pending
+387,354,Medical Examination,1627.65,Partially Paid
+388,7,Ultrasound,955.2,Partially Paid
+389,368,Medical Examination,1627.47,Paid
+390,388,X-Ray,1110.53,Partially Paid
+391,498,X-Ray,2322.68,Pending
+392,438,Medication,834.39,Partially Paid
+393,317,Emergency Treatment,1795.15,Partially Paid
+394,540,Follow-up Consultation,145.95,Pending
+395,464,Consultation,672.07,Paid
+396,514,Emergency Treatment,1934.65,Pending
+397,37,Medical Examination,546.85,Pending
+398,360,Laboratory Test,393.75,Paid
+399,494,X-Ray,258.65,Pending
+400,169,Emergency Treatment,1015.85,Paid
+401,352,Ultrasound,141.31,Paid
+402,105,Consultation,841.08,Partially Paid
+403,349,Medical Examination,473.03,Partially Paid
+404,135,X-Ray,1922.3,Paid
+405,539,Medication,1251.86,Pending
+406,308,Medical Examination,1014.63,Partially Paid
+407,511,Consultation,675.8,Paid
+408,463,Blood Test,689.61,Paid
+409,144,Blood Test,2056.7,Pending
+410,356,Consultation,2005.78,Partially Paid
+411,8,Dental Treatment,458.88,Pending
+412,316,Consultation,2207.81,Pending
+413,399,Medication,1231.74,Pending
+414,405,Ultrasound,2086.68,Partially Paid
+415,413,Medical Examination,1222.44,Pending
+416,263,Dental Treatment,2221.03,Pending
+417,181,Blood Test,513.34,Pending
+418,533,Blood Test,2496.77,Paid
+419,268,Dental Treatment,452.37,Paid
+420,365,Emergency Treatment,2456.71,Pending
+421,37,Dental Treatment,1254.51,Pending
+422,9,Consultation,2457.38,Pending
+423,2,Follow-up Consultation,925.73,Partially Paid
+424,464,Medication,1145.81,Paid
+425,129,Medical Examination,975.96,Paid
+426,190,Medical Examination,1139.93,Partially Paid
+427,372,Laboratory Test,1768.5,Pending
+428,122,Emergency Treatment,1875.41,Partially Paid
+429,116,Ultrasound,547.03,Pending
+430,408,Follow-up Consultation,1710.29,Partially Paid
+431,137,Laboratory Test,994.37,Partially Paid
+432,395,X-Ray,2287.05,Paid
+433,388,Laboratory Test,324.82,Paid
+434,531,Medication,745.88,Pending
+435,526,Medical Examination,768.06,Pending
+436,520,Laboratory Test,188.93,Pending
+437,242,Medication,1551.67,Pending
+438,19,Medication,778.64,Partially Paid
+439,510,X-Ray,990.08,Partially Paid
+440,447,Medication,1391.88,Partially Paid
+441,224,X-Ray,2105.01,Partially Paid
+442,304,X-Ray,1962.8,Paid
+443,83,Medical Examination,987.39,Paid
+444,444,Consultation,1111.93,Pending
+445,378,Laboratory Test,1531.37,Partially Paid
+446,359,Follow-up Consultation,1468.56,Pending
+447,422,Consultation,2119.89,Partially Paid
+448,290,Medical Examination,2133.9,Paid
+449,53,Emergency Treatment,919.95,Pending
+450,90,X-Ray,766.56,Partially Paid
+451,291,Consultation,1954.37,Pending
+452,265,X-Ray,2368.03,Paid
+453,81,Follow-up Consultation,951.13,Pending
+454,219,Laboratory Test,601.03,Partially Paid
+455,407,Dental Treatment,1977.6,Partially Paid
+456,295,X-Ray,1520.49,Pending
+457,403,Laboratory Test,1855.84,Pending
+458,156,Emergency Treatment,1689.62,Paid
+459,423,Emergency Treatment,740.44,Pending
+460,461,Blood Test,2352.06,Pending
+461,291,Medical Examination,516.47,Paid
+462,494,Blood Test,678.48,Paid
+463,69,Blood Test,440.77,Partially Paid
+464,383,Laboratory Test,1226.32,Paid
+465,483,Dental Treatment,167.42,Partially Paid
+466,111,Medical Examination,1027.42,Pending
+467,258,Medication,786.44,Partially Paid
+468,49,Dental Treatment,2357.6,Pending
+469,333,Dental Treatment,1631.42,Paid
+470,312,Follow-up Consultation,1782.73,Paid
+471,325,Medical Examination,2380.35,Partially Paid
+472,464,Medication,1890.13,Pending
+473,317,Medication,1669.75,Partially Paid
+474,177,Laboratory Test,887.85,Pending
+475,286,Consultation,1468.98,Partially Paid
+476,368,Medical Examination,1803.62,Paid
+477,200,Ultrasound,857.17,Paid
+478,167,Dental Treatment,127.55,Pending
+479,417,Medication,991.93,Pending
+480,318,Ultrasound,533.44,Paid
+481,262,Ultrasound,901.33,Pending
+482,490,Follow-up Consultation,416.85,Partially Paid
+483,137,X-Ray,290.71,Pending
+484,320,Emergency Treatment,105.93,Pending
+485,446,Dental Treatment,2064.29,Paid
+486,244,Emergency Treatment,94.63,Pending
+487,305,Consultation,347.62,Paid
+488,321,Emergency Treatment,1203.31,Pending
+489,64,Ultrasound,1058.1,Pending
+490,154,Emergency Treatment,1435.9,Partially Paid
+491,470,Laboratory Test,394.84,Pending
+492,127,Follow-up Consultation,1690.7,Partially Paid
+493,63,Laboratory Test,1450.86,Paid
+494,17,Medication,1570.75,Paid
+495,427,Consultation,2128.54,Partially Paid
+496,265,Medical Examination,174.42,Partially Paid
+497,234,Medical Examination,956.99,Partially Paid
+498,48,Dental Treatment,2454.69,Paid
+499,305,Consultation,541.15,Partially Paid
+500,510,Medication,1388.72,Pending
+501,290,Medication,1200.29,Partially Paid
+502,232,Follow-up Consultation,1889.98,Pending
+503,515,Medication,604.96,Partially Paid
+504,244,Consultation,968.88,Paid
+505,130,Medical Examination,314.9,Partially Paid
+506,224,Medication,2076.64,Pending
+507,97,Consultation,1047.12,Partially Paid
+508,188,Ultrasound,961.64,Paid
+509,286,Emergency Treatment,876.15,Pending
+510,274,Emergency Treatment,1127.99,Paid
+511,132,Medical Examination,380.96,Partially Paid
+512,428,Medical Examination,538.68,Pending
+513,116,Laboratory Test,1822.16,Paid
+514,366,Medication,1456.64,Pending
+515,49,Dental Treatment,2347.23,Pending
+516,485,Follow-up Consultation,468.83,Pending
+517,432,Blood Test,459.24,Pending
+518,55,Medication,399.37,Paid
+519,337,Follow-up Consultation,1872.69,Pending
+520,464,Laboratory Test,845.68,Partially Paid
+521,58,Ultrasound,2467.4,Paid
+522,313,Consultation,960.26,Partially Paid
+523,295,Medical Examination,2248.05,Paid
+524,447,X-Ray,1453.3,Paid
+525,24,Blood Test,596.9,Partially Paid
+526,105,Dental Treatment,1779.61,Paid
+527,504,Medical Examination,951.38,Pending
+528,95,Ultrasound,1906.24,Partially Paid
+529,456,Follow-up Consultation,158.8,Partially Paid
+530,2,Emergency Treatment,1372.14,Paid
+531,38,Follow-up Consultation,2331.98,Paid
+532,350,X-Ray,2120.66,Pending
+533,140,Medication,645.36,Paid
+534,530,Follow-up Consultation,510.39,Pending
+535,10,Consultation,323.02,Pending
+536,177,Follow-up Consultation,155.9,Paid
+537,131,Ultrasound,92.89,Pending
+538,433,Medical Examination,2381.38,Pending
+539,142,Emergency Treatment,474.51,Paid
+540,277,Laboratory Test,1274.39,Paid
+541,359,Consultation,113.23,Partially Paid
+542,356,Follow-up Consultation,1297.46,Partially Paid
+543,490,Medical Examination,460.43,Pending
+544,56,Ultrasound,992.52,Pending
+545,482,Medical Examination,2033.46,Paid
+546,49,Laboratory Test,2093.48,Pending
+547,182,Emergency Treatment,1202.06,Pending
+548,85,Emergency Treatment,2296.57,Pending
+549,113,Blood Test,180.49,Partially Paid
+550,167,Dental Treatment,2487.34,Pending

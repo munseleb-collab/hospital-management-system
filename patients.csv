@@ -1,0 +1,551 @@
+id,first_name,last_name,age,gender,phone,address,diagnosis
+1,Ruth,Kabwe,16,Male,0973005553,Kitwe,Common Cold
+2,Mercy,Nkole,12,Female,0972583953,Ndola,Gastritis
+3,Robert,Phiri,80,Female,0978282162,Kalulushi,Food Poisoning
+4,Peter,Phiri,63,Male,0974271521,Kitwe,Back Pain
+5,Daniel,Tembo,7,Female,0975528309,Mufulira,Asthma
+6,William,Daka,27,Male,0973901881,Ndola,Asthma
+7,Brian,Chanda,71,Female,0977028950,Luanshya,Gastritis
+8,Joyce,Siame,34,Female,0972395365,Luanshya,Back Pain
+9,Martha,Bwalya,28,Male,0978519722,Lusaka,Anemia
+10,Linda,Mwila,50,Male,0976534827,Mufulira,Heartburn
+11,Samuel,Banda,8,Male,0971796705,Kitwe,Pneumonia
+12,Esther,Bwalya,84,Male,0974498349,Kitwe,Tuberculosis
+13,Brenda,Banda,80,Male,0978497019,Kitwe,Gastritis
+14,Samuel,Lungu,71,Female,0976908823,Kalulushi,Gastritis
+15,Samuel,Mwanza,71,Male,0977026817,Lusaka,Flu
+16,Linda,Chanda,65,Female,0972374144,Luanshya,Allergic Reaction
+17,John,Nkole,83,Female,0975584905,Mufulira,Heartburn
+18,Collins,Chilufya,69,Female,0976408443,Ndola,Back Pain
+19,Samuel,Phiri,73,Male,0973910328,Luanshya,Asthma
+20,Joyce,Mulenga,49,Male,0978245535,Kabwe,Flu
+21,Agnes,Zulu,6,Male,0973206141,Luanshya,Asthma
+22,Faith,Daka,32,Male,0971594938,Luanshya,Back Pain
+23,Alice,Banda,61,Female,0976882128,Mufulira,Tuberculosis
+24,John,Phiri,39,Female,0979076654,Ndola,Common Cold
+25,Patricia,Siame,49,Male,0979243312,Luanshya,Back Pain
+26,Charles,Mumba,70,Male,0971123561,Mufulira,Bronchitis
+27,Alice,Musonda,59,Male,0972852654,Chingola,Arthritis
+28,Faith,Mumba,19,Male,0979335655,Kalulushi,Arthritis
+29,Patricia,Chanda,40,Female,0978039555,Kitwe,Malaria
+30,William,Sakala,18,Female,0976095119,Mufulira,Urinary Tract Infection
+31,Andrew,Mwila,51,Female,0975983511,Luanshya,Bronchitis
+32,Joseph,Siame,4,Female,0978072201,Chingola,Migraine
+33,Faith,Ngoma,85,Female,0978467387,Kitwe,Bronchitis
+34,Mary,Phiri,65,Female,0973167904,Chingola,Flu
+35,Linda,Siame,54,Male,0978880251,Ndola,Common Cold
+36,James,Chilufya,67,Female,0978664207,Kabwe,Migraine
+37,Collins,Nkole,33,Female,0973479501,Lusaka,Urinary Tract Infection
+38,Charles,Siame,7,Female,0979489283,Kitwe,Urinary Tract Infection
+39,Faith,Mwila,19,Female,0977199952,Chingola,Heartburn
+40,Agnes,Mumba,28,Male,0973734721,Luanshya,Malaria
+41,Alice,Zulu,67,Male,0978799140,Mufulira,Diabetes
+42,Daniel,Siame,83,Male,0973726928,Lusaka,Food Poisoning
+43,Charles,Nkole,33,Male,0977320427,Mufulira,Common Cold
+44,Ruth,Mumba,35,Male,0978212840,Kabwe,Tuberculosis
+45,Brian,Lungu,66,Male,0978347733,Ndola,Heartburn
+46,Brian,Chanda,71,Female,0973586987,Ndola,Malaria
+47,Daniel,Sakala,78,Male,0976327628,Mufulira,Back Pain
+48,Alice,Daka,26,Female,0977057672,Luanshya,Diabetes
+49,John,Chilufya,37,Female,0978654095,Ndola,Common Cold
+50,Brian,Phiri,60,Female,0973328470,Lusaka,Allergic Reaction
+51,Agnes,Ngoma,54,Female,0974567363,Chingola,Malaria
+52,Martha,Sakala,73,Female,0972620362,Kalulushi,Skin Infection
+53,Joyce,Nkole,54,Male,0972332886,Kitwe,Malaria
+54,William,Mwila,30,Female,0979333060,Kitwe,Common Cold
+55,Patricia,Siame,30,Male,0973109804,Ndola,Pneumonia
+56,John,Bwalya,58,Female,0974410602,Luanshya,Diabetes
+57,Peter,Lungu,42,Female,0975645006,Kitwe,Tuberculosis
+58,Gift,Phiri,19,Male,0976262230,Luanshya,Heartburn
+59,Faith,Mumba,45,Male,0976762211,Chingola,Back Pain
+60,Blessing,Daka,69,Male,0972720768,Mufulira,Urinary Tract Infection
+61,Esther,Banda,6,Male,0972466634,Luanshya,Typhoid
+62,Chanda,Mulenga,75,Male,0974407465,Ndola,Skin Infection
+63,Gift,Mumba,53,Male,0979714843,Chingola,Hypertension
+64,Andrew,Phiri,71,Female,0975253261,Kitwe,Flu
+65,Blessing,Phiri,45,Male,0975433843,Lusaka,Food Poisoning
+66,Mary,Mumba,82,Female,0976105489,Chingola,Diabetes
+67,Mercy,Kabwe,17,Female,0971250951,Luanshya,Back Pain
+68,Linda,Mulenga,3,Female,0971750870,Kabwe,Diabetes
+69,John,Phiri,44,Male,0974689618,Luanshya,Arthritis
+70,Linda,Kabwe,40,Male,0974947035,Ndola,Bronchitis
+71,Michael,Daka,55,Male,0977243656,Lusaka,Common Cold
+72,Peter,Bwalya,7,Female,0972798823,Luanshya,Tuberculosis
+73,Robert,Tembo,77,Female,0973344582,Kalulushi,Malaria
+74,Gift,Mwila,37,Male,0974430599,Lusaka,Heartburn
+75,David,Kapembwa,6,Female,0978826744,Kitwe,Urinary Tract Infection
+76,Martha,Nkole,67,Female,0978671149,Lusaka,Tuberculosis
+77,Esther,Banda,51,Male,0973610989,Ndola,Bronchitis
+78,Esther,Lungu,10,Male,0976555775,Luanshya,Allergic Reaction
+79,Samuel,Chanda,38,Female,0978750778,Kalulushi,Tuberculosis
+80,John,Daka,43,Male,0975343049,Mufulira,Food Poisoning
+81,Brenda,Daka,80,Male,0972638855,Kalulushi,Bronchitis
+82,Joseph,Chanda,83,Female,0972766057,Lusaka,Heartburn
+83,Martha,Mulenga,84,Female,0974325752,Lusaka,Pneumonia
+84,Martha,Musonda,1,Female,0973891012,Chingola,Hypertension
+85,Charles,Tembo,14,Male,0971051085,Kalulushi,Common Cold
+86,Michael,Mumba,30,Female,0971393300,Kitwe,Pneumonia
+87,John,Nkole,68,Female,0976639684,Lusaka,Diabetes
+88,Joseph,Chanda,11,Male,0975365477,Chingola,Heartburn
+89,Samuel,Mulenga,54,Male,0976957844,Ndola,Diabetes
+90,John,Musonda,41,Female,0973373208,Lusaka,Anemia
+91,Joyce,Kabwe,13,Male,0975881873,Luanshya,Pneumonia
+92,Martha,Zulu,44,Female,0977091566,Lusaka,Typhoid
+93,Martha,Tembo,56,Female,0978368837,Ndola,Back Pain
+94,Grace,Lungu,58,Female,0977306664,Chingola,Heartburn
+95,Alice,Sakala,29,Male,0972673142,Kabwe,Hypertension
+96,John,Ngoma,81,Male,0975819860,Mufulira,Skin Infection
+97,Agnes,Zulu,52,Male,0971381095,Kabwe,Skin Infection
+98,Joyce,Sakala,33,Female,0976799963,Mufulira,Food Poisoning
+99,Linda,Mulenga,50,Male,0977632402,Kalulushi,Flu
+100,Agnes,Phiri,29,Male,0972740143,Mufulira,Back Pain
+101,Faith,Mwanza,83,Female,0975761112,Lusaka,Flu
+102,Patricia,Siame,12,Female,0971690057,Kabwe,Heartburn
+103,Mercy,Banda,24,Male,0974192056,Kitwe,Back Pain
+104,Alice,Nkole,12,Female,0975911993,Kitwe,Common Cold
+105,Gift,Daka,5,Female,0974503532,Kitwe,Food Poisoning
+106,Joyce,Ngoma,72,Male,0971428390,Kalulushi,Arthritis
+107,William,Lungu,50,Female,0973064655,Chingola,Gastritis
+108,Robert,Lungu,70,Male,0971823435,Chingola,Pneumonia
+109,Agnes,Tembo,36,Male,0976113083,Luanshya,Food Poisoning
+110,Chanda,Mulenga,31,Male,0971855251,Ndola,Hypertension
+111,Robert,Ngoma,40,Male,0974317854,Kalulushi,Common Cold
+112,Michael,Chanda,31,Male,0971653772,Luanshya,Skin Infection
+113,Patricia,Nkole,65,Female,0972842059,Kabwe,Heartburn
+114,Alice,Tembo,40,Male,0972836341,Chingola,Urinary Tract Infection
+115,Martha,Tembo,9,Male,0971646129,Ndola,Hypertension
+116,David,Banda,45,Female,0971468667,Lusaka,Diabetes
+117,Samuel,Bwalya,63,Female,0976916856,Chingola,Food Poisoning
+118,Charles,Mwila,73,Female,0972213478,Mufulira,Gastritis
+119,Brenda,Nkole,26,Male,0977249753,Chingola,Diabetes
+120,Agnes,Sakala,51,Male,0976417191,Chingola,Migraine
+121,James,Nkole,40,Female,0977510314,Ndola,Gastritis
+122,Brenda,Sakala,24,Male,0979663298,Mufulira,Back Pain
+123,Collins,Tembo,7,Male,0976428691,Kalulushi,Heartburn
+124,Alice,Mwila,18,Female,0976444461,Kalulushi,Gastritis
+125,Peter,Daka,29,Female,0972811699,Kabwe,Arthritis
+126,Patricia,Lungu,4,Female,0979096883,Kalulushi,Anemia
+127,Gift,Mulenga,10,Male,0979217569,Kalulushi,Diabetes
+128,Blessing,Mwanza,71,Male,0976695278,Ndola,Malaria
+129,Linda,Mulenga,7,Male,0975946455,Kabwe,Urinary Tract Infection
+130,Samuel,Chilufya,31,Female,0979313334,Ndola,Anemia
+131,Joseph,Ngoma,45,Female,0972241478,Kalulushi,Bronchitis
+132,Daniel,Kapembwa,39,Male,0972486879,Kalulushi,Arthritis
+133,Daniel,Sakala,74,Male,0979739935,Luanshya,Allergic Reaction
+134,Linda,Mwila,19,Male,0977704657,Lusaka,Diabetes
+135,Collins,Ngoma,6,Male,0975548920,Luanshya,Gastritis
+136,Alice,Zulu,27,Male,0974345689,Ndola,Arthritis
+137,Linda,Musonda,49,Female,0978138610,Chingola,Malaria
+138,Daniel,Chanda,43,Female,0974099398,Kitwe,Hypertension
+139,Robert,Chanda,18,Male,0973234840,Kalulushi,Heartburn
+140,William,Zulu,77,Female,0972377211,Kalulushi,Allergic Reaction
+141,Joyce,Mulenga,53,Male,0977164545,Chingola,Hypertension
+142,Samuel,Mulenga,33,Male,0971518132,Mufulira,Gastritis
+143,Chanda,Musonda,18,Female,0975422329,Mufulira,Heartburn
+144,Ruth,Zulu,67,Male,0972966538,Kitwe,Diabetes
+145,Brian,Kapembwa,13,Male,0975226902,Kalulushi,Hypertension
+146,Blessing,Mwila,24,Female,0977911245,Kitwe,Food Poisoning
+147,Agnes,Chanda,85,Female,0971643621,Kalulushi,Flu
+148,Agnes,Nkole,18,Male,0971881192,Lusaka,Common Cold
+149,William,Chanda,35,Female,0973004188,Lusaka,Arthritis
+150,Andrew,Tembo,24,Male,0979561473,Ndola,Gastritis
+151,Alice,Lungu,9,Female,0977430460,Kalulushi,Urinary Tract Infection
+152,Charles,Siame,51,Male,0972890404,Kitwe,Gastritis
+153,Joyce,Mumba,19,Male,0973011893,Kalulushi,Migraine
+154,Gift,Ngoma,59,Male,0977906959,Chingola,Heartburn
+155,Agnes,Chanda,1,Male,0979505068,Kitwe,Common Cold
+156,Joseph,Kapembwa,3,Male,0978031372,Lusaka,Food Poisoning
+157,Patricia,Nkole,10,Female,0979603792,Kabwe,Heartburn
+158,Grace,Phiri,39,Female,0977300817,Kabwe,Skin Infection
+159,Mary,Phiri,1,Female,0971073206,Chingola,Migraine
+160,Brian,Ngoma,62,Male,0971301705,Ndola,Arthritis
+161,James,Banda,30,Female,0975613704,Chingola,Gastritis
+162,James,Mumba,54,Male,0978669826,Mufulira,Migraine
+163,Michael,Zulu,53,Female,0973209866,Ndola,Typhoid
+164,Blessing,Lungu,26,Female,0974843557,Chingola,Arthritis
+165,Mercy,Mumba,40,Male,0979543798,Mufulira,Malaria
+166,John,Banda,85,Female,0978763899,Kabwe,Skin Infection
+167,Linda,Mwanza,9,Male,0977839908,Kalulushi,Bronchitis
+168,James,Tembo,39,Male,0978860178,Lusaka,Diabetes
+169,Joyce,Bwalya,9,Female,0978180293,Kabwe,Asthma
+170,Brenda,Chilufya,79,Female,0974479467,Ndola,Food Poisoning
+171,Daniel,Chanda,48,Male,0975748457,Mufulira,Urinary Tract Infection
+172,Andrew,Chanda,84,Male,0973679299,Mufulira,Arthritis
+173,Grace,Musonda,56,Male,0972363857,Ndola,Skin Infection
+174,Joyce,Chilufya,53,Female,0976373298,Luanshya,Migraine
+175,John,Kabwe,66,Female,0978370938,Kabwe,Common Cold
+176,Gift,Bwalya,17,Male,0977919468,Kabwe,Back Pain
+177,John,Ngoma,31,Female,0974150222,Lusaka,Skin Infection
+178,Faith,Kapembwa,10,Male,0978590857,Mufulira,Gastritis
+179,Samuel,Bwalya,9,Male,0978363623,Kabwe,Hypertension
+180,William,Sakala,30,Male,0973697324,Kalulushi,Common Cold
+181,Esther,Chanda,83,Female,0979118703,Mufulira,Malaria
+182,Agnes,Nkole,36,Female,0972523572,Kalulushi,Flu
+183,Linda,Musonda,5,Male,0973515402,Kabwe,Common Cold
+184,Ruth,Chanda,28,Female,0974421121,Chingola,Tuberculosis
+185,Mercy,Ngoma,43,Male,0977994314,Kalulushi,Typhoid
+186,Charles,Bwalya,25,Female,0977204475,Lusaka,Anemia
+187,Mercy,Mwanza,60,Female,0972123695,Mufulira,Bronchitis
+188,Michael,Lungu,63,Male,0972593644,Lusaka,Common Cold
+189,Ruth,Lungu,72,Female,0971548083,Luanshya,Malaria
+190,Mercy,Kapembwa,76,Male,0974514522,Kitwe,Pneumonia
+191,Charles,Daka,21,Female,0972215516,Kitwe,Asthma
+192,Charles,Kapembwa,6,Male,0971754121,Kitwe,Allergic Reaction
+193,Peter,Phiri,12,Female,0975140366,Lusaka,Malaria
+194,James,Mulenga,84,Female,0974502344,Luanshya,Pneumonia
+195,Peter,Phiri,35,Female,0979712309,Mufulira,Urinary Tract Infection
+196,Grace,Chilufya,70,Male,0972315235,Ndola,Hypertension
+197,Mary,Lungu,5,Female,0971528515,Kitwe,Asthma
+198,Brian,Banda,80,Female,0977293015,Kalulushi,Pneumonia
+199,Joyce,Bwalya,22,Female,0972478373,Kabwe,Allergic Reaction
+200,John,Banda,49,Male,0977337336,Luanshya,Typhoid
+201,Michael,Mwanza,55,Male,0977656843,Chingola,Bronchitis
+202,Andrew,Lungu,74,Male,0979381041,Luanshya,Typhoid
+203,Peter,Kapembwa,9,Male,0975432397,Luanshya,Anemia
+204,Martha,Siame,75,Female,0976962478,Mufulira,Flu
+205,Linda,Sakala,18,Female,0974032477,Chingola,Diabetes
+206,Linda,Mwanza,20,Female,0978403855,Chingola,Anemia
+207,Chanda,Musonda,14,Female,0977660547,Chingola,Asthma
+208,Agnes,Musonda,12,Female,0973923019,Ndola,Skin Infection
+209,Robert,Mulenga,36,Female,0976234594,Mufulira,Malaria
+210,Martha,Mwanza,44,Male,0979527616,Luanshya,Bronchitis
+211,Joyce,Kapembwa,70,Female,0972222898,Chingola,Bronchitis
+212,Peter,Tembo,20,Male,0974089665,Mufulira,Common Cold
+213,Grace,Zulu,28,Male,0973251041,Kitwe,Malaria
+214,Faith,Banda,76,Female,0975007225,Lusaka,Gastritis
+215,Samuel,Kapembwa,45,Male,0978823376,Lusaka,Hypertension
+216,Joyce,Bwalya,64,Female,0976411988,Kabwe,Food Poisoning
+217,Joseph,Phiri,55,Male,0975522688,Kitwe,Tuberculosis
+218,Brian,Sakala,75,Male,0974158175,Lusaka,Urinary Tract Infection
+219,Martha,Musonda,4,Male,0974662528,Ndola,Malaria
+220,John,Chilufya,49,Female,0975281536,Luanshya,Tuberculosis
+221,Michael,Kabwe,28,Male,0972789599,Luanshya,Food Poisoning
+222,Daniel,Mulenga,10,Male,0977200488,Lusaka,Bronchitis
+223,Robert,Ngoma,7,Female,0973788493,Kalulushi,Arthritis
+224,Peter,Ngoma,10,Male,0975066722,Chingola,Bronchitis
+225,Martha,Ngoma,19,Female,0976419522,Kabwe,Hypertension
+226,Peter,Chanda,70,Female,0973503155,Lusaka,Pneumonia
+227,Robert,Mwanza,22,Male,0971162866,Kitwe,Skin Infection
+228,Grace,Mwila,69,Female,0973683316,Luanshya,Diabetes
+229,Chanda,Kapembwa,74,Male,0976492914,Ndola,Asthma
+230,Robert,Sakala,67,Female,0971800367,Kitwe,Pneumonia
+231,Mary,Mumba,36,Female,0972979204,Ndola,Malaria
+232,Gift,Zulu,44,Male,0972301627,Kalulushi,Arthritis
+233,Martha,Mumba,50,Male,0977169518,Luanshya,Asthma
+234,Faith,Zulu,42,Male,0975124327,Lusaka,Tuberculosis
+235,Michael,Mwanza,12,Male,0973981987,Mufulira,Heartburn
+236,James,Mumba,54,Female,0979975903,Luanshya,Anemia
+237,Samuel,Bwalya,83,Female,0979273443,Mufulira,Asthma
+238,David,Phiri,83,Male,0977470337,Luanshya,Allergic Reaction
+239,Andrew,Chanda,78,Female,0975917142,Kalulushi,Flu
+240,Mercy,Phiri,17,Female,0977946773,Mufulira,Skin Infection
+241,Martha,Siame,64,Female,0977841314,Chingola,Bronchitis
+242,Grace,Sakala,76,Female,0977573966,Kitwe,Diabetes
+243,Samuel,Kabwe,56,Female,0978272486,Chingola,Bronchitis
+244,William,Nkole,76,Female,0977273670,Kalulushi,Bronchitis
+245,Linda,Ngoma,70,Female,0977377074,Mufulira,Migraine
+246,William,Mulenga,38,Male,0976923409,Lusaka,Common Cold
+247,James,Mulenga,13,Male,0975354266,Ndola,Diabetes
+248,Patricia,Tembo,70,Male,0979586862,Mufulira,Pneumonia
+249,Chanda,Sakala,62,Female,0974913957,Kalulushi,Migraine
+250,Michael,Siame,58,Male,0971305508,Luanshya,Skin Infection
+251,Collins,Zulu,78,Female,0979013840,Kalulushi,Bronchitis
+252,Andrew,Musonda,80,Male,0979313104,Kalulushi,Arthritis
+253,Linda,Daka,37,Female,0979998286,Lusaka,Malaria
+254,Grace,Zulu,69,Male,0977238592,Kitwe,Heartburn
+255,James,Ngoma,25,Male,0977621029,Lusaka,Heartburn
+256,Daniel,Chanda,47,Female,0972578232,Lusaka,Gastritis
+257,John,Sakala,61,Male,0975736185,Luanshya,Food Poisoning
+258,Faith,Zulu,57,Female,0971402615,Kalulushi,Arthritis
+259,Agnes,Siame,39,Female,0973417410,Kalulushi,Arthritis
+260,Brian,Phiri,57,Female,0973707344,Ndola,Heartburn
+261,Ruth,Phiri,69,Female,0971497357,Mufulira,Arthritis
+262,Joyce,Banda,47,Female,0977214323,Ndola,Allergic Reaction
+263,Gift,Mulenga,70,Male,0974062362,Kitwe,Pneumonia
+264,Grace,Kapembwa,19,Female,0975007138,Chingola,Urinary Tract Infection
+265,Esther,Ngoma,54,Male,0973806404,Kabwe,Flu
+266,Martha,Sakala,82,Female,0973558186,Mufulira,Anemia
+267,Michael,Kabwe,4,Female,0973059203,Mufulira,Common Cold
+268,Grace,Phiri,81,Male,0978834321,Mufulira,Common Cold
+269,Samuel,Banda,6,Male,0973831504,Mufulira,Urinary Tract Infection
+270,Gift,Ngoma,20,Male,0977789091,Kabwe,Common Cold
+271,Brian,Daka,4,Male,0977904317,Kalulushi,Migraine
+272,Martha,Bwalya,85,Female,0971120431,Luanshya,Pneumonia
+273,Collins,Siame,54,Male,0972868538,Chingola,Skin Infection
+274,Grace,Siame,1,Male,0978207470,Lusaka,Bronchitis
+275,Agnes,Nkole,82,Male,0976222883,Chingola,Pneumonia
+276,Samuel,Daka,75,Female,0973378369,Mufulira,Pneumonia
+277,William,Siame,72,Female,0975640226,Ndola,Anemia
+278,Ruth,Musonda,59,Male,0979395153,Lusaka,Food Poisoning
+279,Peter,Siame,44,Female,0971683883,Mufulira,Anemia
+280,John,Nkole,8,Female,0979172505,Luanshya,Tuberculosis
+281,William,Mwila,12,Female,0974364186,Lusaka,Typhoid
+282,Joyce,Chilufya,60,Male,0974027891,Luanshya,Hypertension
+283,Faith,Lungu,62,Male,0976901596,Kitwe,Migraine
+284,Faith,Ngoma,15,Male,0976872770,Mufulira,Skin Infection
+285,Blessing,Bwalya,35,Male,0979477431,Kalulushi,Bronchitis
+286,Joseph,Ngoma,14,Male,0976826644,Mufulira,Anemia
+287,Samuel,Phiri,44,Male,0973638103,Kalulushi,Tuberculosis
+288,Chanda,Phiri,54,Male,0978495958,Kabwe,Food Poisoning
+289,John,Mumba,4,Male,0972845958,Ndola,Anemia
+290,Robert,Mulenga,40,Female,0977383728,Lusaka,Migraine
+291,James,Daka,71,Female,0975742350,Kitwe,Arthritis
+292,Esther,Daka,82,Male,0975597037,Kabwe,Urinary Tract Infection
+293,Joyce,Kapembwa,22,Male,0979432156,Kitwe,Urinary Tract Infection
+294,Blessing,Siame,56,Female,0979068807,Ndola,Allergic Reaction
+295,Alice,Siame,46,Female,0978967712,Chingola,Malaria
+296,Blessing,Nkole,45,Male,0975901113,Kabwe,Flu
+297,Martha,Phiri,73,Female,0977082896,Kitwe,Anemia
+298,Joyce,Ngoma,76,Female,0972110483,Mufulira,Diabetes
+299,Michael,Sakala,85,Female,0975377088,Ndola,Heartburn
+300,Peter,Lungu,22,Male,0977609904,Luanshya,Tuberculosis
+301,David,Ngoma,30,Male,0974109477,Chingola,Heartburn
+302,Mercy,Chilufya,15,Female,0972707423,Luanshya,Allergic Reaction
+303,Joyce,Kapembwa,20,Male,0975697726,Chingola,Urinary Tract Infection
+304,Joseph,Tembo,72,Male,0973059371,Kitwe,Arthritis
+305,James,Sakala,52,Female,0975321820,Mufulira,Flu
+306,Peter,Chanda,66,Male,0979821740,Kabwe,Food Poisoning
+307,Robert,Banda,64,Female,0972727168,Chingola,Gastritis
+308,Chanda,Mumba,50,Male,0978423800,Chingola,Tuberculosis
+309,Samuel,Tembo,17,Male,0973419431,Kabwe,Heartburn
+310,Ruth,Ngoma,50,Male,0977866666,Luanshya,Urinary Tract Infection
+311,Ruth,Banda,2,Male,0977038761,Kabwe,Tuberculosis
+312,Andrew,Mwila,4,Female,0975894467,Lusaka,Bronchitis
+313,Peter,Mulenga,42,Female,0979756396,Luanshya,Anemia
+314,Esther,Lungu,9,Female,0971777357,Kitwe,Bronchitis
+315,John,Kapembwa,68,Female,0977777264,Lusaka,Flu
+316,Faith,Bwalya,3,Male,0978535319,Kitwe,Urinary Tract Infection
+317,Agnes,Mwila,39,Male,0975833526,Ndola,Common Cold
+318,Brian,Mumba,9,Male,0972723584,Chingola,Urinary Tract Infection
+319,Ruth,Phiri,76,Female,0975745727,Ndola,Diabetes
+320,Brian,Sakala,42,Male,0971152947,Chingola,Flu
+321,Mary,Musonda,55,Female,0976631702,Luanshya,Typhoid
+322,Brenda,Nkole,25,Male,0976619405,Ndola,Food Poisoning
+323,James,Phiri,64,Female,0971076174,Kitwe,Common Cold
+324,Gift,Phiri,76,Male,0979648785,Luanshya,Gastritis
+325,Peter,Tembo,48,Female,0973255896,Mufulira,Heartburn
+326,James,Siame,28,Male,0975268606,Mufulira,Urinary Tract Infection
+327,Joseph,Mulenga,74,Male,0973950975,Kabwe,Diabetes
+328,Faith,Chanda,37,Female,0972943057,Ndola,Asthma
+329,Charles,Phiri,40,Female,0971320947,Kitwe,Hypertension
+330,Daniel,Ngoma,25,Male,0979454166,Mufulira,Malaria
+331,Brian,Daka,70,Female,0972433775,Luanshya,Tuberculosis
+332,Faith,Zulu,24,Female,0978177516,Ndola,Urinary Tract Infection
+333,John,Chanda,17,Male,0971291439,Kabwe,Urinary Tract Infection
+334,William,Mwanza,1,Female,0971040863,Kabwe,Bronchitis
+335,Martha,Kapembwa,55,Male,0978932637,Chingola,Bronchitis
+336,Daniel,Mulenga,18,Female,0979966658,Kabwe,Gastritis
+337,Daniel,Kapembwa,55,Male,0976981549,Chingola,Hypertension
+338,Samuel,Kabwe,19,Female,0971341775,Luanshya,Common Cold
+339,Daniel,Kapembwa,39,Male,0976562103,Chingola,Urinary Tract Infection
+340,James,Sakala,4,Female,0974223922,Ndola,Bronchitis
+341,Grace,Kabwe,25,Male,0975393760,Chingola,Migraine
+342,Joyce,Nkole,63,Male,0972253814,Ndola,Pneumonia
+343,Daniel,Daka,6,Female,0977374634,Kalulushi,Tuberculosis
+344,Ruth,Nkole,47,Female,0976073510,Kitwe,Flu
+345,Collins,Mwanza,6,Male,0976155920,Ndola,Hypertension
+346,Michael,Phiri,37,Male,0973082103,Chingola,Allergic Reaction
+347,Grace,Ngoma,63,Male,0972327462,Mufulira,Skin Infection
+348,Patricia,Musonda,74,Male,0972181051,Lusaka,Common Cold
+349,Samuel,Bwalya,24,Male,0979037472,Luanshya,Bronchitis
+350,Brian,Ngoma,16,Female,0972353665,Kitwe,Allergic Reaction
+351,Daniel,Mumba,10,Female,0971202017,Ndola,Urinary Tract Infection
+352,Patricia,Mwila,74,Female,0978470089,Mufulira,Flu
+353,Mary,Chanda,38,Male,0972582125,Lusaka,Common Cold
+354,Brenda,Daka,15,Female,0979949682,Ndola,Diabetes
+355,William,Mwanza,85,Female,0979314870,Kalulushi,Tuberculosis
+356,Grace,Chilufya,77,Female,0976188741,Ndola,Back Pain
+357,David,Lungu,31,Male,0971692547,Kalulushi,Bronchitis
+358,Blessing,Sakala,16,Male,0975432486,Kabwe,Food Poisoning
+359,Grace,Mwanza,37,Male,0976531961,Chingola,Bronchitis
+360,Ruth,Daka,43,Female,0971480217,Chingola,Malaria
+361,Esther,Tembo,8,Male,0976720879,Kalulushi,Bronchitis
+362,Brian,Zulu,60,Female,0976763720,Kabwe,Gastritis
+363,Faith,Tembo,28,Female,0979632599,Kitwe,Diabetes
+364,Joseph,Mwila,73,Male,0974063203,Kabwe,Hypertension
+365,Brenda,Banda,22,Male,0971824710,Ndola,Malaria
+366,Ruth,Sakala,63,Female,0977809208,Chingola,Gastritis
+367,Grace,Chilufya,49,Female,0972218812,Lusaka,Allergic Reaction
+368,Linda,Lungu,8,Female,0977255882,Lusaka,Diabetes
+369,Linda,Zulu,18,Female,0979816618,Lusaka,Gastritis
+370,James,Zulu,33,Male,0973361805,Kitwe,Malaria
+371,Alice,Mwila,20,Female,0973903510,Kitwe,Common Cold
+372,Alice,Sakala,50,Female,0975672349,Kalulushi,Back Pain
+373,Gift,Daka,52,Female,0972990219,Ndola,Tuberculosis
+374,Agnes,Tembo,37,Female,0971792076,Kitwe,Skin Infection
+375,Mary,Tembo,43,Female,0976698924,Luanshya,Tuberculosis
+376,Peter,Zulu,29,Male,0979571074,Kalulushi,Tuberculosis
+377,Mercy,Tembo,16,Female,0975667978,Mufulira,Diabetes
+378,Peter,Phiri,13,Male,0974927227,Ndola,Arthritis
+379,Joyce,Mwila,38,Male,0971163847,Kitwe,Allergic Reaction
+380,William,Banda,61,Male,0975751416,Kalulushi,Arthritis
+381,Collins,Chilufya,47,Female,0975131640,Lusaka,Typhoid
+382,Robert,Nkole,76,Male,0979152701,Mufulira,Malaria
+383,John,Chanda,44,Male,0972270172,Kitwe,Back Pain
+384,Faith,Mwila,50,Male,0976771005,Kalulushi,Bronchitis
+385,Collins,Zulu,56,Female,0978623262,Mufulira,Heartburn
+386,Faith,Siame,67,Female,0974400441,Mufulira,Malaria
+387,Charles,Ngoma,19,Female,0971371906,Chingola,Urinary Tract Infection
+388,Charles,Lungu,56,Male,0975468394,Luanshya,Urinary Tract Infection
+389,David,Mwanza,85,Male,0979546643,Kabwe,Diabetes
+390,Faith,Bwalya,51,Female,0979890615,Chingola,Malaria
+391,John,Nkole,15,Female,0979208078,Kabwe,Urinary Tract Infection
+392,Alice,Ngoma,10,Male,0973033631,Kabwe,Heartburn
+393,Samuel,Tembo,64,Female,0979540679,Chingola,Diabetes
+394,Agnes,Siame,37,Male,0979544158,Mufulira,Back Pain
+395,Andrew,Sakala,70,Female,0972208655,Kalulushi,Common Cold
+396,Brenda,Phiri,3,Male,0975837353,Kitwe,Malaria
+397,Faith,Lungu,3,Female,0977235122,Luanshya,Common Cold
+398,John,Lungu,2,Male,0979890138,Chingola,Diabetes
+399,Mary,Tembo,75,Female,0971606651,Lusaka,Common Cold
+400,Ruth,Mwila,35,Female,0974019770,Mufulira,Common Cold
+401,Peter,Siame,11,Male,0972834826,Ndola,Arthritis
+402,Andrew,Sakala,7,Male,0974929686,Lusaka,Urinary Tract Infection
+403,Linda,Kabwe,17,Female,0976725419,Chingola,Urinary Tract Infection
+404,Gift,Banda,60,Male,0972863308,Kalulushi,Tuberculosis
+405,Daniel,Tembo,66,Female,0973215573,Kabwe,Common Cold
+406,Brian,Sakala,32,Male,0973933919,Ndola,Flu
+407,James,Mulenga,31,Male,0974356625,Kalulushi,Hypertension
+408,David,Chilufya,77,Male,0974686497,Ndola,Gastritis
+409,Chanda,Daka,32,Female,0976464867,Mufulira,Skin Infection
+410,William,Nkole,65,Male,0975612651,Ndola,Tuberculosis
+411,Mary,Siame,67,Female,0978123384,Luanshya,Migraine
+412,David,Siame,71,Female,0977199209,Kalulushi,Bronchitis
+413,Blessing,Chilufya,14,Male,0971228243,Kabwe,Pneumonia
+414,Chanda,Sakala,68,Female,0972389794,Kitwe,Migraine
+415,Linda,Chilufya,63,Female,0972026806,Kitwe,Back Pain
+416,Patricia,Mwila,42,Male,0979651391,Lusaka,Asthma
+417,Grace,Siame,72,Male,0976018471,Mufulira,Typhoid
+418,Alice,Kapembwa,79,Female,0972174543,Luanshya,Heartburn
+419,Alice,Mwanza,2,Female,0977283038,Ndola,Tuberculosis
+420,Collins,Chanda,2,Female,0975763000,Kabwe,Gastritis
+421,Mary,Mwila,38,Female,0975173529,Kabwe,Hypertension
+422,John,Mumba,34,Female,0979643761,Ndola,Typhoid
+423,Joyce,Chanda,40,Female,0971349024,Ndola,Malaria
+424,William,Sakala,23,Female,0971566367,Mufulira,Pneumonia
+425,Brenda,Mumba,70,Male,0972468571,Kitwe,Hypertension
+426,Alice,Mulenga,80,Female,0975570824,Kitwe,Pneumonia
+427,Collins,Kapembwa,59,Male,0979762113,Lusaka,Arthritis
+428,Michael,Kapembwa,79,Female,0975539434,Lusaka,Malaria
+429,Linda,Kabwe,12,Female,0975980278,Kalulushi,Asthma
+430,Joyce,Musonda,10,Female,0976586255,Kabwe,Diabetes
+431,William,Bwalya,48,Female,0971069919,Kabwe,Arthritis
+432,James,Lungu,5,Female,0978820368,Luanshya,Gastritis
+433,Martha,Chanda,69,Male,0971460403,Luanshya,Hypertension
+434,James,Lungu,59,Female,0978945767,Mufulira,Urinary Tract Infection
+435,Collins,Chanda,60,Male,0975697612,Kitwe,Skin Infection
+436,Faith,Bwalya,29,Male,0972614716,Lusaka,Malaria
+437,Linda,Mwanza,7,Female,0977170760,Chingola,Common Cold
+438,John,Lungu,66,Male,0973520389,Chingola,Gastritis
+439,Martha,Lungu,44,Female,0976193417,Chingola,Flu
+440,Linda,Banda,24,Female,0978373589,Luanshya,Common Cold
+441,Chanda,Nkole,54,Male,0971195073,Ndola,Tuberculosis
+442,Brian,Chilufya,15,Male,0978755105,Kabwe,Malaria
+443,Linda,Kabwe,51,Male,0973191758,Luanshya,Back Pain
+444,Joyce,Chanda,77,Male,0977621289,Mufulira,Asthma
+445,Brian,Lungu,8,Male,0973352135,Kitwe,Anemia
+446,Andrew,Lungu,7,Female,0977165261,Ndola,Common Cold
+447,Blessing,Daka,24,Female,0979922077,Mufulira,Urinary Tract Infection
+448,Blessing,Phiri,49,Male,0974994597,Kitwe,Malaria
+449,Faith,Daka,29,Female,0972404746,Mufulira,Hypertension
+450,William,Tembo,76,Female,0974689591,Chingola,Heartburn
+451,Patricia,Mulenga,38,Male,0971705600,Kabwe,Tuberculosis
+452,Alice,Chanda,33,Female,0974119002,Kitwe,Pneumonia
+453,Joseph,Mumba,80,Male,0978121342,Kitwe,Bronchitis
+454,Gift,Banda,70,Male,0973853909,Kabwe,Asthma
+455,Andrew,Siame,43,Male,0978572106,Mufulira,Flu
+456,Robert,Mulenga,67,Male,0976540517,Kabwe,Gastritis
+457,Daniel,Musonda,23,Female,0971013620,Kitwe,Hypertension
+458,Mercy,Mulenga,1,Female,0979319118,Luanshya,Migraine
+459,Andrew,Mwanza,79,Female,0973264048,Luanshya,Asthma
+460,Martha,Phiri,56,Male,0972785036,Kabwe,Gastritis
+461,Peter,Phiri,32,Female,0971358762,Kalulushi,Bronchitis
+462,Esther,Tembo,40,Female,0971195420,Mufulira,Gastritis
+463,Brenda,Mwanza,43,Male,0975819818,Kitwe,Gastritis
+464,Peter,Daka,21,Male,0979921769,Kitwe,Pneumonia
+465,Esther,Chilufya,18,Female,0975164308,Chingola,Common Cold
+466,Samuel,Banda,15,Female,0973168839,Kabwe,Diabetes
+467,David,Chilufya,17,Female,0978886023,Kabwe,Gastritis
+468,Martha,Ngoma,4,Male,0974719557,Ndola,Gastritis
+469,Gift,Chilufya,67,Female,0973294263,Chingola,Flu
+470,William,Sakala,69,Female,0977829816,Mufulira,Food Poisoning
+471,Daniel,Mwila,68,Female,0975269498,Kabwe,Hypertension
+472,Robert,Mulenga,82,Male,0973379459,Kalulushi,Heartburn
+473,Faith,Mulenga,35,Male,0972189398,Mufulira,Anemia
+474,Daniel,Chanda,39,Female,0975260413,Mufulira,Diabetes
+475,Agnes,Nkole,35,Female,0973148791,Luanshya,Asthma
+476,William,Mwila,41,Male,0971824713,Kalulushi,Food Poisoning
+477,Patricia,Sakala,40,Female,0975894096,Mufulira,Skin Infection
+478,Brian,Ngoma,78,Male,0979564028,Kalulushi,Bronchitis
+479,Blessing,Banda,29,Female,0972628235,Luanshya,Gastritis
+480,Gift,Mwila,50,Female,0979893324,Mufulira,Allergic Reaction
+481,Faith,Musonda,48,Female,0976623112,Lusaka,Arthritis
+482,Brian,Banda,5,Male,0979436133,Ndola,Diabetes
+483,Brenda,Bwalya,32,Female,0973196377,Lusaka,Hypertension
+484,Esther,Daka,25,Male,0979702136,Kitwe,Urinary Tract Infection
+485,Daniel,Chanda,15,Female,0978809346,Kitwe,Bronchitis
+486,Linda,Mulenga,72,Male,0972750671,Kabwe,Asthma
+487,David,Mumba,22,Male,0974109517,Mufulira,Gastritis
+488,Joyce,Chanda,23,Male,0974648823,Mufulira,Diabetes
+489,Faith,Musonda,57,Male,0973144564,Ndola,Flu
+490,Brenda,Chanda,21,Female,0978306400,Kitwe,Tuberculosis
+491,David,Chanda,74,Male,0977464641,Chingola,Gastritis
+492,Daniel,Siame,1,Male,0971151818,Lusaka,Skin Infection
+493,Andrew,Lungu,41,Male,0973918678,Lusaka,Hypertension
+494,Collins,Mumba,72,Female,0973603368,Kalulushi,Back Pain
+495,Agnes,Mumba,28,Female,0976616850,Kalulushi,Bronchitis
+496,Robert,Kabwe,64,Female,0978581489,Chingola,Hypertension
+497,Ruth,Zulu,77,Male,0978151318,Lusaka,Heartburn
+498,Chanda,Banda,29,Female,0972242094,Mufulira,Tuberculosis
+499,Peter,Chanda,54,Male,0979214538,Kitwe,Gastritis
+500,Andrew,Siame,57,Male,0978835987,Chingola,Malaria
+501,Martha,Kapembwa,23,Female,0972623098,Chingola,Arthritis
+502,Esther,Chanda,67,Male,0978895824,Mufulira,Bronchitis
+503,Grace,Kapembwa,62,Female,0976913190,Kitwe,Tuberculosis
+504,Chanda,Zulu,36,Female,0971511957,Mufulira,Asthma
+505,Patricia,Siame,71,Female,0971409378,Luanshya,Gastritis
+506,John,Sakala,44,Female,0977049240,Ndola,Diabetes
+507,Brenda,Mwanza,11,Male,0973354766,Kalulushi,Common Cold
+508,Peter,Mwanza,34,Female,0972944105,Luanshya,Gastritis
+509,Gift,Kapembwa,76,Female,0973520779,Chingola,Flu
+510,Robert,Ngoma,29,Female,0976431236,Mufulira,Heartburn
+511,Linda,Nkole,53,Male,0971910081,Luanshya,Gastritis
+512,Joyce,Kapembwa,17,Male,0971660296,Mufulira,Malaria
+513,Faith,Tembo,79,Female,0978199855,Ndola,Allergic Reaction
+514,Joseph,Tembo,80,Female,0973824189,Chingola,Hypertension
+515,Samuel,Mwanza,55,Male,0971017850,Kabwe,Gastritis
+516,Martha,Daka,49,Male,0977663451,Luanshya,Arthritis
+517,Gift,Sakala,62,Male,0978010074,Lusaka,Allergic Reaction
+518,Gift,Phiri,49,Male,0973723887,Kitwe,Common Cold
+519,Blessing,Daka,60,Male,0978940666,Lusaka,Urinary Tract Infection
+520,Gift,Chilufya,9,Male,0974206207,Chingola,Arthritis
+521,Linda,Nkole,57,Female,0975687759,Chingola,Tuberculosis
+522,Alice,Lungu,21,Male,0975395225,Mufulira,Common Cold
+523,Joyce,Lungu,43,Male,0972804220,Kitwe,Migraine
+524,Ruth,Lungu,19,Male,0978770379,Kabwe,Asthma
+525,Brian,Chanda,20,Male,0979374048,Lusaka,Anemia
+526,Alice,Lungu,39,Male,0979045505,Kabwe,Diabetes
+527,Peter,Daka,81,Female,0976484501,Kabwe,Gastritis
+528,Peter,Kabwe,13,Male,0975388706,Kabwe,Pneumonia
+529,Esther,Nkole,28,Male,0972219987,Mufulira,Heartburn
+530,Joseph,Mwanza,24,Male,0974624366,Kabwe,Urinary Tract Infection
+531,Mary,Ngoma,45,Female,0972970702,Mufulira,Common Cold
+532,Blessing,Lungu,40,Male,0978377882,Luanshya,Asthma
+533,Patricia,Mulenga,79,Male,0976462968,Kabwe,Skin Infection
+534,Chanda,Mumba,43,Male,0972587408,Ndola,Flu
+535,Grace,Zulu,58,Male,0971943988,Kalulushi,Skin Infection
+536,Charles,Banda,37,Male,0972159449,Kalulushi,Pneumonia
+537,Agnes,Nkole,85,Male,0976677193,Kitwe,Hypertension
+538,Mary,Ngoma,65,Male,0977748511,Lusaka,Urinary Tract Infection
+539,Esther,Nkole,28,Male,0973402612,Ndola,Asthma
+540,Patricia,Mulenga,28,Male,0977173203,Luanshya,Gastritis
+541,Robert,Mwanza,28,Male,0971412899,Mufulira,Gastritis
+542,Chanda,Phiri,46,Female,0977356079,Mufulira,Tuberculosis
+543,Linda,Kabwe,26,Female,0978576834,Luanshya,Tuberculosis
+544,Gift,Ngoma,13,Female,0973704037,Kabwe,Flu
+545,Peter,Tembo,84,Female,0978503173,Kalulushi,Typhoid
+546,Andrew,Kabwe,39,Female,0972891382,Lusaka,Gastritis
+547,Andrew,Daka,20,Female,0976770063,Chingola,Diabetes
+548,Peter,Lungu,58,Female,0975010644,Kalulushi,Diabetes
+549,Martha,Mwila,16,Female,0979628617,Luanshya,Asthma
+550,Ruth,Kapembwa,12,Female,0977376135,Chingola,Arthritis

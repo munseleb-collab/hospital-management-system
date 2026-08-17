@@ -1,0 +1,551 @@
+id,patient_id,doctor_id,medicine,dosage,instructions
+1,406,6,Cetirizine,500mg,Take once daily after meals
+2,521,19,Loratadine,500mg,Take once daily after meals
+3,32,16,Amoxicillin,1 tablet,Use as directed by the doctor
+4,202,7,Ibuprofen,250mg,Take before meals
+5,501,11,Ciprofloxacin,500mg,Use as directed by the doctor
+6,437,9,Azithromycin,500mg,Take once daily after meals
+7,472,20,ORS,10mg,Use as directed by the doctor
+8,18,3,Azithromycin,5mg,Take three times daily
+9,63,14,Diclofenac,2 tablets,Take with plenty of water
+10,389,7,Azithromycin,250mg,Take once daily after meals
+11,429,13,Paracetamol,1 tablet,Take before meals
+12,40,1,Artemether,1 tablet,Take before meals
+13,194,18,Artemether,250mg,Take once daily after meals
+14,103,6,Azithromycin,1 tablet,Take after meals
+15,166,19,ORS,250mg,Take before meals
+16,136,12,Diclofenac,5mg,Take before meals
+17,243,17,ORS,250mg,Use as directed by the doctor
+18,537,8,Diclofenac,2 tablets,Take after meals
+19,377,6,Amlodipine,20mg,Take once daily after meals
+20,323,19,Azithromycin,2 tablets,Take twice daily
+21,360,3,Azithromycin,20mg,Take once daily after meals
+22,131,18,Ibuprofen,5mg,Take with plenty of water
+23,280,20,Omeprazole,10mg,Use as directed by the doctor
+24,547,14,Amlodipine,10mg,Take twice daily
+25,239,17,Azithromycin,100mg,Take before meals
+26,70,10,Artemether,2 tablets,Take three times daily
+27,425,2,Amlodipine,500mg,Take three times daily
+28,94,11,Ciprofloxacin,10mg,Take after meals
+29,305,19,Cetirizine,2 tablets,Take after meals
+30,308,4,Ciprofloxacin,2 tablets,Take twice daily
+31,6,6,Cetirizine,250mg,Take before meals
+32,117,13,ORS,1 tablet,Use as directed by the doctor
+33,441,4,Artemether,100mg,Take with plenty of water
+34,187,15,Metformin,5mg,Take twice daily
+35,316,17,Amoxicillin,20mg,Take before meals
+36,499,18,Diclofenac,250mg,Take after meals
+37,426,5,Amlodipine,5mg,Take once daily after meals
+38,224,17,Diclofenac,250mg,Take once daily after meals
+39,50,6,Azithromycin,500mg,Take after meals
+40,98,17,Cetirizine,10mg,Take twice daily
+41,140,16,Amlodipine,5mg,Take with plenty of water
+42,478,19,Omeprazole,20mg,Take before meals
+43,264,20,Cetirizine,1 tablet,Take once daily after meals
+44,451,18,Amoxicillin,500mg,Take before meals
+45,389,14,Ibuprofen,2 tablets,Take after meals
+46,329,16,Metformin,250mg,Take after meals
+47,44,18,ORS,20mg,Use as directed by the doctor
+48,366,14,Loratadine,250mg,Take before meals
+49,145,19,ORS,1 tablet,Take once daily after meals
+50,305,17,Amlodipine,20mg,Take after meals
+51,106,20,ORS,250mg,Use as directed by the doctor
+52,469,19,ORS,10mg,Take twice daily
+53,184,1,Paracetamol,10mg,Take before meals
+54,51,10,ORS,250mg,Use as directed by the doctor
+55,206,3,Ciprofloxacin,500mg,Take before meals
+56,462,6,Paracetamol,250mg,Take twice daily
+57,360,19,Amoxicillin,5mg,Take after meals
+58,457,2,ORS,250mg,Take with plenty of water
+59,515,16,Ciprofloxacin,10mg,Take after meals
+60,348,3,ORS,20mg,Use as directed by the doctor
+61,253,5,Cetirizine,20mg,Take twice daily
+62,90,4,Amoxicillin,500mg,Take three times daily
+63,491,5,Paracetamol,5mg,Take three times daily
+64,434,16,Azithromycin,100mg,Take with plenty of water
+65,234,19,ORS,5mg,Take once daily after meals
+66,453,6,Omeprazole,2 tablets,Take before meals
+67,446,6,Loratadine,10mg,Take before meals
+68,415,8,Paracetamol,5mg,Take after meals
+69,354,6,Azithromycin,5mg,Take before meals
+70,164,11,Cetirizine,500mg,Take once daily after meals
+71,259,17,Loratadine,250mg,Take before meals
+72,225,18,Cetirizine,10mg,Use as directed by the doctor
+73,425,3,Artemether,500mg,Take once daily after meals
+74,383,14,Amlodipine,1 tablet,Take three times daily
+75,32,16,Azithromycin,250mg,Take after meals
+76,88,4,Metformin,5mg,Take once daily after meals
+77,225,6,Ciprofloxacin,20mg,Take twice daily
+78,192,14,Omeprazole,1 tablet,Take before meals
+79,110,20,Metformin,10mg,Take after meals
+80,219,7,Paracetamol,250mg,Take with plenty of water
+81,272,16,Loratadine,1 tablet,Use as directed by the doctor
+82,401,12,Azithromycin,1 tablet,Take before meals
+83,78,6,Artemether,2 tablets,Take before meals
+84,413,5,Paracetamol,2 tablets,Take three times daily
+85,302,2,Loratadine,5mg,Take before meals
+86,208,8,Amlodipine,1 tablet,Take with plenty of water
+87,417,20,Paracetamol,250mg,Use as directed by the doctor
+88,186,7,Cetirizine,250mg,Take twice daily
+89,207,20,Artemether,500mg,Take once daily after meals
+90,83,10,Azithromycin,10mg,Take after meals
+91,28,20,Ibuprofen,5mg,Take with plenty of water
+92,416,18,Loratadine,20mg,Take before meals
+93,368,7,Amlodipine,2 tablets,Take with plenty of water
+94,254,16,Loratadine,10mg,Use as directed by the doctor
+95,406,20,Metformin,250mg,Take once daily after meals
+96,292,8,Cetirizine,100mg,Take before meals
+97,352,5,Amlodipine,20mg,Take once daily after meals
+98,456,16,Azithromycin,500mg,Take before meals
+99,439,13,Ibuprofen,1 tablet,Take after meals
+100,309,18,ORS,250mg,Take twice daily
+101,281,20,Ciprofloxacin,100mg,Take before meals
+102,425,16,Amlodipine,20mg,Take twice daily
+103,192,4,Ibuprofen,500mg,Take before meals
+104,14,16,Artemether,10mg,Take with plenty of water
+105,94,13,Metformin,20mg,Take with plenty of water
+106,176,1,Cetirizine,500mg,Use as directed by the doctor
+107,286,9,Ibuprofen,20mg,Take before meals
+108,501,2,Diclofenac,2 tablets,Use as directed by the doctor
+109,213,17,Cetirizine,20mg,Take before meals
+110,70,20,Artemether,2 tablets,Take twice daily
+111,216,6,Cetirizine,250mg,Take after meals
+112,419,16,Metformin,1 tablet,Take three times daily
+113,356,16,Artemether,20mg,Use as directed by the doctor
+114,321,17,Amoxicillin,100mg,Use as directed by the doctor
+115,326,4,Ciprofloxacin,100mg,Take with plenty of water
+116,529,4,Azithromycin,1 tablet,Take after meals
+117,507,14,Omeprazole,100mg,Use as directed by the doctor
+118,248,5,Omeprazole,20mg,Use as directed by the doctor
+119,486,8,Paracetamol,500mg,Take before meals
+120,135,7,Paracetamol,20mg,Take three times daily
+121,202,1,Loratadine,250mg,Use as directed by the doctor
+122,381,16,Cetirizine,250mg,Take three times daily
+123,348,13,Diclofenac,2 tablets,Take twice daily
+124,251,13,Ciprofloxacin,20mg,Take three times daily
+125,29,19,Ciprofloxacin,100mg,Take once daily after meals
+126,519,2,Artemether,2 tablets,Take with plenty of water
+127,218,9,Omeprazole,100mg,Take before meals
+128,463,1,Amlodipine,10mg,Take once daily after meals
+129,314,10,Omeprazole,1 tablet,Take with plenty of water
+130,355,12,Azithromycin,5mg,Take before meals
+131,47,11,Metformin,1 tablet,Take with plenty of water
+132,396,17,Amoxicillin,20mg,Take twice daily
+133,443,3,Azithromycin,100mg,Take before meals
+134,96,12,Ciprofloxacin,2 tablets,Take after meals
+135,445,7,Omeprazole,20mg,Take once daily after meals
+136,205,15,Paracetamol,20mg,Use as directed by the doctor
+137,548,10,Diclofenac,2 tablets,Take three times daily
+138,15,15,Omeprazole,100mg,Take after meals
+139,200,2,Azithromycin,100mg,Take after meals
+140,39,1,Azithromycin,250mg,Take twice daily
+141,19,14,Amlodipine,2 tablets,Take before meals
+142,139,12,Amoxicillin,1 tablet,Use as directed by the doctor
+143,458,3,Azithromycin,2 tablets,Take before meals
+144,461,2,Ibuprofen,1 tablet,Take three times daily
+145,140,1,Metformin,20mg,Take twice daily
+146,46,6,Amlodipine,20mg,Take before meals
+147,113,19,Paracetamol,2 tablets,Take before meals
+148,19,3,Omeprazole,10mg,Take once daily after meals
+149,410,18,Paracetamol,5mg,Take before meals
+150,61,12,Paracetamol,20mg,Take once daily after meals
+151,419,9,Cetirizine,20mg,Use as directed by the doctor
+152,281,10,Ciprofloxacin,20mg,Take once daily after meals
+153,120,7,Cetirizine,250mg,Take before meals
+154,243,2,Diclofenac,500mg,Take before meals
+155,417,20,Ciprofloxacin,2 tablets,Take after meals
+156,544,16,Loratadine,20mg,Take with plenty of water
+157,62,3,Loratadine,10mg,Take once daily after meals
+158,372,17,Diclofenac,20mg,Use as directed by the doctor
+159,76,20,Amlodipine,2 tablets,Take after meals
+160,201,13,Ibuprofen,2 tablets,Take before meals
+161,25,7,Ciprofloxacin,500mg,Use as directed by the doctor
+162,349,11,Loratadine,20mg,Take after meals
+163,217,11,Loratadine,5mg,Take twice daily
+164,548,16,ORS,250mg,Take after meals
+165,162,17,Artemether,1 tablet,Take before meals
+166,87,11,Metformin,10mg,Take three times daily
+167,203,5,Artemether,2 tablets,Take before meals
+168,23,3,Amlodipine,20mg,Take after meals
+169,268,2,Diclofenac,2 tablets,Take twice daily
+170,196,3,Cetirizine,1 tablet,Take three times daily
+171,526,14,Metformin,10mg,Take twice daily
+172,494,19,Metformin,2 tablets,Take three times daily
+173,469,10,Metformin,20mg,Take twice daily
+174,320,2,Artemether,500mg,Take after meals
+175,13,18,Cetirizine,5mg,Take three times daily
+176,491,16,Diclofenac,1 tablet,Take after meals
+177,34,8,Cetirizine,20mg,Use as directed by the doctor
+178,464,9,Diclofenac,10mg,Take three times daily
+179,546,6,Amlodipine,10mg,Take after meals
+180,345,6,Loratadine,10mg,Take once daily after meals
+181,241,6,Diclofenac,20mg,Take with plenty of water
+182,119,12,Amoxicillin,10mg,Take once daily after meals
+183,547,19,Loratadine,500mg,Take after meals
+184,241,9,Cetirizine,2 tablets,Take with plenty of water
+185,325,7,Cetirizine,20mg,Take three times daily
+186,419,9,Azithromycin,1 tablet,Take before meals
+187,14,19,Artemether,5mg,Take after meals
+188,13,18,Loratadine,5mg,Take once daily after meals
+189,229,9,Diclofenac,20mg,Take with plenty of water
+190,440,7,Metformin,1 tablet,Take once daily after meals
+191,161,18,Amoxicillin,1 tablet,Take once daily after meals
+192,75,5,Cetirizine,5mg,Use as directed by the doctor
+193,505,20,Paracetamol,5mg,Take after meals
+194,512,10,Cetirizine,100mg,Take once daily after meals
+195,527,20,Amlodipine,1 tablet,Take three times daily
+196,323,11,Metformin,500mg,Take three times daily
+197,340,14,Paracetamol,250mg,Use as directed by the doctor
+198,248,8,Omeprazole,100mg,Take three times daily
+199,212,9,Ciprofloxacin,20mg,Take once daily after meals
+200,518,18,Metformin,2 tablets,Take three times daily
+201,369,6,Cetirizine,250mg,Take with plenty of water
+202,81,19,Omeprazole,250mg,Take before meals
+203,375,12,Omeprazole,10mg,Take with plenty of water
+204,336,7,Ibuprofen,10mg,Take with plenty of water
+205,449,5,Amoxicillin,5mg,Take with plenty of water
+206,412,14,Artemether,10mg,Take twice daily
+207,488,12,Ibuprofen,500mg,Take with plenty of water
+208,508,16,Cetirizine,10mg,Take twice daily
+209,277,10,Azithromycin,5mg,Use as directed by the doctor
+210,103,6,Diclofenac,10mg,Take before meals
+211,159,16,Metformin,10mg,Take before meals
+212,119,7,Amlodipine,1 tablet,Take before meals
+213,140,4,Ibuprofen,10mg,Take three times daily
+214,90,4,Artemether,1 tablet,Take with plenty of water
+215,414,20,Azithromycin,2 tablets,Take after meals
+216,246,19,Ciprofloxacin,10mg,Take before meals
+217,188,8,Ibuprofen,250mg,Use as directed by the doctor
+218,283,3,Paracetamol,100mg,Take three times daily
+219,488,16,Metformin,5mg,Take once daily after meals
+220,324,14,Azithromycin,5mg,Take twice daily
+221,187,15,Ibuprofen,250mg,Take after meals
+222,508,19,Ibuprofen,5mg,Take before meals
+223,75,8,Ciprofloxacin,250mg,Take with plenty of water
+224,481,3,Ibuprofen,10mg,Take three times daily
+225,173,10,Paracetamol,5mg,Take before meals
+226,515,20,Diclofenac,1 tablet,Take after meals
+227,19,10,Artemether,100mg,Take after meals
+228,263,12,Ciprofloxacin,100mg,Take after meals
+229,497,13,Cetirizine,5mg,Take twice daily
+230,489,1,Paracetamol,2 tablets,Take before meals
+231,4,8,Amlodipine,250mg,Take twice daily
+232,526,1,Diclofenac,5mg,Take with plenty of water
+233,492,3,Loratadine,5mg,Take before meals
+234,248,7,Metformin,1 tablet,Take with plenty of water
+235,255,4,Omeprazole,20mg,Take after meals
+236,161,14,Loratadine,10mg,Take after meals
+237,171,10,Amlodipine,250mg,Take after meals
+238,338,7,Artemether,250mg,Take twice daily
+239,372,3,Paracetamol,250mg,Take twice daily
+240,408,18,Ciprofloxacin,20mg,Take three times daily
+241,320,13,Cetirizine,100mg,Take once daily after meals
+242,530,17,Azithromycin,500mg,Take once daily after meals
+243,264,12,Azithromycin,250mg,Use as directed by the doctor
+244,450,1,Diclofenac,250mg,Use as directed by the doctor
+245,217,20,Amoxicillin,20mg,Use as directed by the doctor
+246,210,3,Paracetamol,20mg,Take after meals
+247,34,7,Omeprazole,10mg,Take three times daily
+248,267,4,Ibuprofen,5mg,Use as directed by the doctor
+249,166,11,Ciprofloxacin,10mg,Use as directed by the doctor
+250,418,12,Azithromycin,10mg,Take before meals
+251,359,13,Ibuprofen,500mg,Take with plenty of water
+252,197,1,Loratadine,100mg,Take once daily after meals
+253,265,12,Amoxicillin,250mg,Take with plenty of water
+254,274,1,ORS,20mg,Take twice daily
+255,12,8,Metformin,100mg,Take once daily after meals
+256,39,7,Amlodipine,10mg,Take after meals
+257,431,15,Diclofenac,250mg,Take three times daily
+258,334,19,Ibuprofen,10mg,Take with plenty of water
+259,320,14,Azithromycin,500mg,Use as directed by the doctor
+260,411,20,Amlodipine,2 tablets,Take before meals
+261,443,15,Metformin,500mg,Take twice daily
+262,81,18,Ciprofloxacin,1 tablet,Take twice daily
+263,69,19,ORS,250mg,Take with plenty of water
+264,166,9,Artemether,1 tablet,Take once daily after meals
+265,23,1,Ciprofloxacin,2 tablets,Take with plenty of water
+266,340,8,Cetirizine,5mg,Take twice daily
+267,109,2,Paracetamol,1 tablet,Use as directed by the doctor
+268,61,14,Paracetamol,500mg,Take twice daily
+269,524,12,Ibuprofen,1 tablet,Take with plenty of water
+270,371,19,Artemether,20mg,Take once daily after meals
+271,113,6,Artemether,1 tablet,Take three times daily
+272,36,6,Diclofenac,100mg,Take after meals
+273,201,15,Paracetamol,10mg,Take once daily after meals
+274,123,9,ORS,10mg,Take twice daily
+275,72,20,Azithromycin,1 tablet,Take three times daily
+276,382,12,Diclofenac,20mg,Take once daily after meals
+277,318,20,Cetirizine,250mg,Take once daily after meals
+278,18,14,Metformin,20mg,Take three times daily
+279,297,7,Ciprofloxacin,10mg,Use as directed by the doctor
+280,179,18,ORS,100mg,Take once daily after meals
+281,106,17,Amlodipine,10mg,Take once daily after meals
+282,529,6,Amoxicillin,250mg,Take three times daily
+283,333,2,Ciprofloxacin,5mg,Take with plenty of water
+284,76,13,Loratadine,2 tablets,Take with plenty of water
+285,448,5,Diclofenac,2 tablets,Take three times daily
+286,277,4,Azithromycin,2 tablets,Take after meals
+287,525,4,ORS,100mg,Take before meals
+288,478,17,Amoxicillin,10mg,Use as directed by the doctor
+289,393,7,Cetirizine,20mg,Take before meals
+290,238,12,Ciprofloxacin,20mg,Take once daily after meals
+291,159,10,Amlodipine,20mg,Take before meals
+292,372,14,Omeprazole,20mg,Take after meals
+293,198,13,Amoxicillin,1 tablet,Take before meals
+294,378,4,Metformin,500mg,Take twice daily
+295,386,2,Amlodipine,100mg,Take twice daily
+296,87,9,Cetirizine,10mg,Take before meals
+297,449,19,Omeprazole,250mg,Use as directed by the doctor
+298,35,20,ORS,500mg,Take before meals
+299,323,11,Ciprofloxacin,10mg,Take after meals
+300,412,5,Ibuprofen,10mg,Take before meals
+301,477,3,ORS,100mg,Take after meals
+302,31,16,Azithromycin,10mg,Use as directed by the doctor
+303,495,12,Artemether,100mg,Take three times daily
+304,424,19,Amlodipine,2 tablets,Take with plenty of water
+305,94,3,Paracetamol,500mg,Take after meals
+306,436,16,Metformin,20mg,Take three times daily
+307,322,4,Diclofenac,10mg,Take three times daily
+308,133,20,Amoxicillin,5mg,Take after meals
+309,111,16,Amoxicillin,5mg,Take three times daily
+310,307,13,Azithromycin,5mg,Take after meals
+311,494,19,Ibuprofen,250mg,Take once daily after meals
+312,330,15,Omeprazole,100mg,Take after meals
+313,45,5,Metformin,20mg,Take three times daily
+314,501,20,ORS,250mg,Take once daily after meals
+315,57,17,Amlodipine,250mg,Take after meals
+316,491,14,Loratadine,1 tablet,Take after meals
+317,98,5,Ciprofloxacin,100mg,Take once daily after meals
+318,537,4,Cetirizine,100mg,Use as directed by the doctor
+319,331,2,Cetirizine,100mg,Take once daily after meals
+320,531,1,Diclofenac,20mg,Use as directed by the doctor
+321,2,10,Metformin,100mg,Take after meals
+322,57,15,Amoxicillin,100mg,Take once daily after meals
+323,183,1,Amlodipine,100mg,Take with plenty of water
+324,432,6,Ibuprofen,20mg,Take after meals
+325,277,8,ORS,2 tablets,Take with plenty of water
+326,328,10,Azithromycin,250mg,Use as directed by the doctor
+327,235,11,ORS,250mg,Take twice daily
+328,145,16,Metformin,500mg,Take with plenty of water
+329,86,1,Diclofenac,5mg,Take twice daily
+330,528,9,Amlodipine,500mg,Take three times daily
+331,131,9,Cetirizine,2 tablets,Use as directed by the doctor
+332,247,1,Amoxicillin,2 tablets,Take before meals
+333,515,14,Artemether,500mg,Take before meals
+334,117,17,Omeprazole,500mg,Use as directed by the doctor
+335,48,12,Azithromycin,5mg,Take twice daily
+336,152,10,Ciprofloxacin,20mg,Take once daily after meals
+337,397,15,Amoxicillin,500mg,Take three times daily
+338,513,2,Azithromycin,100mg,Take once daily after meals
+339,178,4,Artemether,10mg,Take with plenty of water
+340,339,9,ORS,100mg,Take three times daily
+341,526,9,ORS,100mg,Take three times daily
+342,369,17,Metformin,1 tablet,Take with plenty of water
+343,388,9,Diclofenac,100mg,Take once daily after meals
+344,277,2,Ciprofloxacin,1 tablet,Take with plenty of water
+345,148,3,Amlodipine,10mg,Use as directed by the doctor
+346,215,17,Ibuprofen,2 tablets,Take once daily after meals
+347,354,17,Amoxicillin,5mg,Take twice daily
+348,489,12,Cetirizine,10mg,Take once daily after meals
+349,22,19,Paracetamol,500mg,Take twice daily
+350,332,19,ORS,20mg,Use as directed by the doctor
+351,545,12,Amoxicillin,5mg,Take after meals
+352,112,19,Amoxicillin,2 tablets,Take once daily after meals
+353,88,6,ORS,100mg,Take with plenty of water
+354,417,14,Ibuprofen,500mg,Take before meals
+355,543,8,Ibuprofen,2 tablets,Take before meals
+356,53,18,Omeprazole,2 tablets,Take before meals
+357,214,15,Artemether,100mg,Use as directed by the doctor
+358,120,12,Diclofenac,1 tablet,Take three times daily
+359,366,6,Amoxicillin,100mg,Take with plenty of water
+360,68,4,Amoxicillin,5mg,Take after meals
+361,2,4,Omeprazole,1 tablet,Take twice daily
+362,438,7,Paracetamol,1 tablet,Take before meals
+363,112,14,Cetirizine,5mg,Take three times daily
+364,184,13,Loratadine,1 tablet,Take three times daily
+365,371,12,Cetirizine,20mg,Take twice daily
+366,408,1,Cetirizine,500mg,Take once daily after meals
+367,259,20,Loratadine,2 tablets,Take before meals
+368,375,11,Paracetamol,1 tablet,Take three times daily
+369,182,1,ORS,1 tablet,Take three times daily
+370,145,17,Cetirizine,2 tablets,Take three times daily
+371,356,2,Paracetamol,20mg,Take twice daily
+372,109,11,Ciprofloxacin,10mg,Take before meals
+373,334,17,Amlodipine,20mg,Use as directed by the doctor
+374,130,19,Omeprazole,500mg,Take three times daily
+375,263,8,Artemether,10mg,Use as directed by the doctor
+376,126,13,Cetirizine,250mg,Use as directed by the doctor
+377,122,17,Amlodipine,5mg,Use as directed by the doctor
+378,454,1,Ibuprofen,250mg,Take once daily after meals
+379,408,3,Artemether,20mg,Take after meals
+380,311,18,Diclofenac,5mg,Use as directed by the doctor
+381,127,8,Artemether,250mg,Take twice daily
+382,266,18,Paracetamol,20mg,Take three times daily
+383,515,9,Artemether,10mg,Take with plenty of water
+384,17,18,Ciprofloxacin,100mg,Take after meals
+385,86,13,Azithromycin,20mg,Take after meals
+386,503,8,Ciprofloxacin,250mg,Take after meals
+387,238,5,Omeprazole,1 tablet,Use as directed by the doctor
+388,269,6,Omeprazole,250mg,Take before meals
+389,291,13,Metformin,20mg,Take three times daily
+390,293,11,Amlodipine,20mg,Take three times daily
+391,228,11,Paracetamol,10mg,Use as directed by the doctor
+392,138,8,Diclofenac,10mg,Take before meals
+393,465,20,Loratadine,500mg,Take before meals
+394,41,14,Amlodipine,250mg,Take once daily after meals
+395,411,15,Cetirizine,500mg,Take twice daily
+396,167,14,Diclofenac,250mg,Take once daily after meals
+397,491,3,Metformin,250mg,Take before meals
+398,394,5,Artemether,100mg,Take after meals
+399,261,13,Paracetamol,10mg,Take three times daily
+400,427,14,Omeprazole,250mg,Take three times daily
+401,536,14,Omeprazole,1 tablet,Take twice daily
+402,164,7,Amlodipine,250mg,Take after meals
+403,524,3,Azithromycin,2 tablets,Take once daily after meals
+404,392,19,Amlodipine,1 tablet,Take once daily after meals
+405,389,8,Ciprofloxacin,500mg,Take once daily after meals
+406,477,20,Amlodipine,500mg,Take before meals
+407,90,11,Paracetamol,1 tablet,Take once daily after meals
+408,377,6,Ciprofloxacin,5mg,Take after meals
+409,74,1,Diclofenac,500mg,Take three times daily
+410,345,1,Loratadine,250mg,Take after meals
+411,180,8,Ibuprofen,500mg,Take with plenty of water
+412,211,1,Loratadine,20mg,Take with plenty of water
+413,129,5,Paracetamol,20mg,Take once daily after meals
+414,27,11,Omeprazole,20mg,Take three times daily
+415,230,16,Ibuprofen,100mg,Take after meals
+416,409,9,Metformin,1 tablet,Take after meals
+417,217,19,Azithromycin,500mg,Take with plenty of water
+418,417,5,Loratadine,500mg,Take after meals
+419,41,14,Azithromycin,500mg,Take after meals
+420,446,6,Azithromycin,250mg,Take before meals
+421,344,13,Ibuprofen,500mg,Take once daily after meals
+422,433,14,Omeprazole,20mg,Take once daily after meals
+423,241,9,Loratadine,100mg,Take after meals
+424,204,7,Diclofenac,250mg,Take after meals
+425,345,19,Ciprofloxacin,500mg,Take after meals
+426,108,7,Ibuprofen,100mg,Take with plenty of water
+427,215,8,Paracetamol,10mg,Take once daily after meals
+428,2,7,Ciprofloxacin,10mg,Take with plenty of water
+429,517,18,Amoxicillin,10mg,Take three times daily
+430,541,14,Ciprofloxacin,5mg,Use as directed by the doctor
+431,117,9,Ibuprofen,2 tablets,Take before meals
+432,254,11,Ibuprofen,100mg,Take twice daily
+433,186,4,ORS,500mg,Take three times daily
+434,67,3,Diclofenac,500mg,Take three times daily
+435,228,20,Loratadine,250mg,Take before meals
+436,214,11,Ciprofloxacin,20mg,Take three times daily
+437,173,11,Diclofenac,500mg,Take before meals
+438,522,18,Amlodipine,10mg,Take with plenty of water
+439,84,3,Loratadine,20mg,Take three times daily
+440,331,11,Amlodipine,100mg,Use as directed by the doctor
+441,482,13,Azithromycin,500mg,Take after meals
+442,143,19,Paracetamol,1 tablet,Take three times daily
+443,389,6,Paracetamol,5mg,Take after meals
+444,276,3,Diclofenac,250mg,Take twice daily
+445,300,6,Ciprofloxacin,100mg,Take once daily after meals
+446,269,11,Ciprofloxacin,250mg,Take once daily after meals
+447,153,12,Amlodipine,10mg,Take before meals
+448,512,6,ORS,2 tablets,Use as directed by the doctor
+449,288,20,Loratadine,2 tablets,Take once daily after meals
+450,234,14,Ibuprofen,5mg,Take after meals
+451,377,6,Amoxicillin,1 tablet,Take once daily after meals
+452,100,10,ORS,100mg,Take with plenty of water
+453,3,5,Artemether,10mg,Take once daily after meals
+454,12,15,Amoxicillin,20mg,Use as directed by the doctor
+455,4,18,Cetirizine,5mg,Take once daily after meals
+456,74,12,Amoxicillin,100mg,Take after meals
+457,289,5,Metformin,10mg,Take before meals
+458,189,1,Azithromycin,1 tablet,Take with plenty of water
+459,203,2,Loratadine,500mg,Take once daily after meals
+460,86,17,Amoxicillin,1 tablet,Take with plenty of water
+461,163,9,Paracetamol,2 tablets,Take before meals
+462,355,8,Paracetamol,250mg,Use as directed by the doctor
+463,489,19,ORS,1 tablet,Use as directed by the doctor
+464,347,18,Amlodipine,5mg,Take once daily after meals
+465,48,20,Omeprazole,100mg,Use as directed by the doctor
+466,422,18,Ciprofloxacin,2 tablets,Take three times daily
+467,291,20,Cetirizine,100mg,Use as directed by the doctor
+468,222,14,Artemether,1 tablet,Take once daily after meals
+469,429,19,Paracetamol,500mg,Take twice daily
+470,136,14,Ciprofloxacin,1 tablet,Take after meals
+471,258,5,Ciprofloxacin,2 tablets,Take twice daily
+472,263,2,Cetirizine,250mg,Take three times daily
+473,82,16,ORS,10mg,Take three times daily
+474,498,9,Artemether,500mg,Take three times daily
+475,7,18,Paracetamol,500mg,Take after meals
+476,313,10,Ibuprofen,500mg,Take twice daily
+477,199,13,Amlodipine,10mg,Use as directed by the doctor
+478,299,16,Metformin,10mg,Take once daily after meals
+479,426,19,Cetirizine,250mg,Use as directed by the doctor
+480,422,7,Amoxicillin,2 tablets,Take three times daily
+481,30,3,Paracetamol,2 tablets,Take after meals
+482,335,8,Amoxicillin,500mg,Take once daily after meals
+483,143,18,Ciprofloxacin,20mg,Take twice daily
+484,183,7,Cetirizine,20mg,Take three times daily
+485,530,13,Omeprazole,20mg,Take three times daily
+486,71,8,Artemether,500mg,Take once daily after meals
+487,485,14,ORS,5mg,Take with plenty of water
+488,159,5,Metformin,20mg,Take before meals
+489,379,18,Azithromycin,250mg,Take once daily after meals
+490,237,3,Diclofenac,250mg,Take once daily after meals
+491,291,6,Ciprofloxacin,250mg,Take twice daily
+492,343,2,Cetirizine,500mg,Take after meals
+493,325,17,Amlodipine,100mg,Take three times daily
+494,332,10,Amlodipine,20mg,Take twice daily
+495,543,9,Azithromycin,1 tablet,Take once daily after meals
+496,299,18,Azithromycin,100mg,Take before meals
+497,219,20,Ibuprofen,250mg,Take once daily after meals
+498,173,10,Paracetamol,20mg,Use as directed by the doctor
+499,1,14,Amoxicillin,100mg,Take after meals
+500,468,17,Amoxicillin,500mg,Take before meals
+501,249,3,Ibuprofen,20mg,Take twice daily
+502,109,10,Loratadine,2 tablets,Use as directed by the doctor
+503,492,3,Amlodipine,20mg,Take once daily after meals
+504,27,20,Artemether,500mg,Take three times daily
+505,286,19,Loratadine,250mg,Take three times daily
+506,24,4,ORS,2 tablets,Take before meals
+507,545,6,Omeprazole,250mg,Take three times daily
+508,81,11,Amlodipine,5mg,Take with plenty of water
+509,313,7,Loratadine,5mg,Take once daily after meals
+510,368,2,Loratadine,20mg,Take twice daily
+511,5,11,Ciprofloxacin,20mg,Take with plenty of water
+512,260,15,Paracetamol,10mg,Take after meals
+513,501,5,Paracetamol,10mg,Use as directed by the doctor
+514,168,8,Azithromycin,250mg,Take three times daily
+515,174,18,Ciprofloxacin,2 tablets,Take with plenty of water
+516,396,16,Ibuprofen,100mg,Take twice daily
+517,10,3,Metformin,2 tablets,Take after meals
+518,14,13,Ciprofloxacin,100mg,Take after meals
+519,306,4,Metformin,250mg,Take before meals
+520,53,9,Omeprazole,2 tablets,Take with plenty of water
+521,57,2,Artemether,1 tablet,Take with plenty of water
+522,158,20,Artemether,2 tablets,Use as directed by the doctor
+523,114,14,Ciprofloxacin,1 tablet,Take twice daily
+524,226,14,Paracetamol,1 tablet,Take after meals
+525,445,15,ORS,10mg,Take twice daily
+526,217,15,Azithromycin,100mg,Take after meals
+527,364,12,Amlodipine,5mg,Take before meals
+528,471,8,Omeprazole,20mg,Take with plenty of water
+529,151,5,Azithromycin,20mg,Take after meals
+530,62,2,ORS,2 tablets,Take after meals
+531,504,19,Paracetamol,5mg,Take three times daily
+532,57,9,Amoxicillin,100mg,Take three times daily
+533,134,14,Diclofenac,250mg,Take twice daily
+534,108,11,Metformin,10mg,Take with plenty of water
+535,236,10,Paracetamol,100mg,Take once daily after meals
+536,78,5,Artemether,250mg,Take before meals
+537,176,13,Azithromycin,5mg,Take before meals
+538,38,9,Diclofenac,500mg,Use as directed by the doctor
+539,318,17,ORS,100mg,Use as directed by the doctor
+540,450,2,Artemether,250mg,Take once daily after meals
+541,397,3,Paracetamol,100mg,Take with plenty of water
+542,1,6,Azithromycin,500mg,Take after meals
+543,398,20,Azithromycin,2 tablets,Take three times daily
+544,36,10,Amoxicillin,250mg,Take before meals
+545,307,17,Metformin,500mg,Take before meals
+546,317,1,Artemether,250mg,Take once daily after meals
+547,495,15,Omeprazole,100mg,Take twice daily
+548,158,17,Metformin,100mg,Take with plenty of water
+549,459,3,Amoxicillin,5mg,Take after meals
+550,456,19,ORS,250mg,Take before meals
